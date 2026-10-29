@@ -34,10 +34,10 @@ PS源代码、当前紧凑LST1请求（32008字节）、LSR1响应（16字节）
 两个已验证样本的期望SOH：row001=93.6279296875%，row167=94.189453125%。
 紧凑协议完整期望响应见outputs/lstm_fast_expected_responses.txt。
 
-优化源码：deployment/hls_fast/soh_accel.cpp。
-仓库仅保留最终版 src/hls_fast；原版源码已移除，本文性能对比为既有报告记录。
+优化源码：deployment/hls/soh_accel.cpp。
+仓库仅保留最终版 src/hls；原版源码已移除，本文性能对比为既有报告记录。
 优化前工程和BD、原bit备份：deployment/backup/pre_fast/。
-IP仓库：deployment/hls_fast/lstm_fast_hls/solution1/impl/ip。
+IP仓库：deployment/hls/lstm_fast_hls/solution1/impl/ip。
 
 从工程根目录运行deployment/build.ps1可重建优化IP并接入、综合、布局布线和生成报告。
 脚本在验证阶段结束，不含bit、XSA或BIN生成步骤。
@@ -48,4 +48,4 @@ IP仓库：deployment/hls_fast/lstm_fast_hls/solution1/impl/ip。
 outputs/lstm_speed_comparison.json：原版和优化版周期、资源、验证及当前部署状态。
 deployment/reports/fast_timing.rpt：布线后时序。
 deployment/reports/fast_utilization_placed.rpt：整工程布局资源。
-deployment/hls_fast/lstm_fast_hls/solution1/sim/report/lstm_axis_cosim.rpt：RTL仿真结果。
+deployment/hls/lstm_fast_hls/solution1/sim/report/lstm_axis_cosim.rpt：RTL仿真结果。

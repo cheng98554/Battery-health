@@ -11,7 +11,7 @@
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wunknown-pragmas"
 #pragma GCC diagnostic ignored "-Wunused-label"
-#include "../../src/hls_fast/soh_accel.cpp"
+#include "../../src/hls/soh_accel.cpp"
 #pragma GCC diagnostic pop
 
 static char disk[200000], disk_name[32], screen[2000000];

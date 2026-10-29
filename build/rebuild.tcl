@@ -1,6 +1,6 @@
 set root [file dirname [file dirname [file normalize [info script]]]]
 create_project nasa [file join $root work vivado] -part xc7z020clg400-2 -force
-set_property ip_repo_paths [list [file join $root src hls_fast lstm_fast_hls solution1 impl ip]] [current_project]
+set_property ip_repo_paths [list [file join $root src hls lstm_fast_hls solution1 impl ip]] [current_project]
 update_ip_catalog
 add_files [file join $root src hardware system.bd]
 add_files -fileset constrs_1 [file join $root src hardware n.xdc]

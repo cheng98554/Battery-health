@@ -2,5 +2,5 @@ work/
 .Xil/
 *.jou
 *.log
-src/hls_fast/lstm_fast_hls/
+src/hls/lstm_fast_hls/
 src/*.zip
