@@ -35,7 +35,7 @@ PS源代码、当前紧凑LST1请求（32008字节）、LSR1响应（16字节）
 紧凑协议完整期望响应见outputs/lstm_fast_expected_responses.txt。
 
 优化源码：deployment/hls_fast/soh_accel.cpp。
-原版源码保留于deployment/hls/soh_accel.cpp。
+仓库仅保留最终版 src/hls_fast；原版源码已移除，本文性能对比为既有报告记录。
 优化前工程和BD、原bit备份：deployment/backup/pre_fast/。
 IP仓库：deployment/hls_fast/lstm_fast_hls/solution1/impl/ip。
 

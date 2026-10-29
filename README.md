@@ -4,8 +4,7 @@
 
 ## 目录
 
-- src/hls_fast：优化版 HLS 源码、权重、测试向量和构建脚本。
-- src/hls：原版 HLS，作为性能比较参考。
+- src/hls_fast：最终版 HLS 源码、权重、测试向量和构建脚本；仓库仅保留此实现。
 - src/ps：Vitis 裸机应用源码。
 - src/hardware：Vivado block design 和引脚约束。
 - sim：I2C 和集成验证脚本及桩实现。
