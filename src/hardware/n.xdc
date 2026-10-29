@@ -1,0 +1,8 @@
+set_property IOSTANDARD LVCMOS33 [get_ports IIC_0_0_scl_io]
+set_property IOSTANDARD LVCMOS33 [get_ports IIC_0_0_sda_io]
+set_property IOSTANDARD LVCMOS33 [get_ports UART_0_0_rxd]
+set_property IOSTANDARD LVCMOS33 [get_ports UART_0_0_txd]
+set_property PACKAGE_PIN Y7 [get_ports IIC_0_0_scl_io]
+set_property PACKAGE_PIN U5 [get_ports IIC_0_0_sda_io]
+set_property PACKAGE_PIN Y6 [get_ports UART_0_0_rxd]
+set_property PACKAGE_PIN T5 [get_ports UART_0_0_txd]

@@ -1,0 +1,39 @@
+{
+  "baseline": {
+    "cycles": 239406,
+    "ms_at_100MHz": 2.39406,
+    "resources": {
+      "BRAM_18K": 13,
+      "DSP": 25,
+      "FF": 1627,
+      "LUT": 2521
+    }
+  },
+  "optimized": {
+    "cycles": 28907,
+    "ms_at_100MHz": 0.28907,
+    "resources": {
+      "BRAM_18K": 11,
+      "DSP": 56,
+      "FF": 4003,
+      "LUT": 3684
+    }
+  },
+  "speedup_hls": 8.281938630781472,
+  "weights_identical": true,
+  "c_simulation_sequences": 423,
+  "rtl_simulation_distinct_sequences": 8,
+  "rtl_simulation_calls": 16,
+  "rtl_cosim_cycles": 28705,
+  "frequency_MHz": 100,
+  "measurement_scope": "HLS estimated latency and RTL simulation; not board timing; excludes PS preprocessing and UART",
+  "vivado_integration": "PASS",
+  "vivado_synthesis": "PASS",
+  "vivado_place_and_route": "PASS",
+  "setup_wns_ns": 0.103,
+  "hold_whs_ns": 0.045,
+  "timing_constraints_met": true,
+  "bitstream_generated": false,
+  "xsa_generated": false,
+  "board_test": "User will perform; optimized core not yet measured on board"
+}

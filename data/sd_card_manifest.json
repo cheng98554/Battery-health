@@ -1,0 +1,3878 @@
+[
+  {
+    "file": "1.txt",
+    "source_sample": "row_001_B0007_cycle_001.bin",
+    "bytes": 88749,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "0c784fbd79880f011b605a4004e537b7dd4c7b45dec54e7700043a2336712cc3"
+  },
+  {
+    "file": "2.txt",
+    "source_sample": "row_002_B0007_cycle_002.bin",
+    "bytes": 88855,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "0260768b539be52f173772f94769e173999a1aec58f8e959dfedefce8912a743"
+  },
+  {
+    "file": "3.txt",
+    "source_sample": "row_003_B0007_cycle_003.bin",
+    "bytes": 88832,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "30176f21eafacea4523838fed068856181636cc30e9e203de1d7bd286409af4b"
+  },
+  {
+    "file": "4.txt",
+    "source_sample": "row_004_B0007_cycle_004.bin",
+    "bytes": 88718,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "30973a576c528feaf33b14ec21384c9d57ec12bbdebee178613f306342cef726"
+  },
+  {
+    "file": "5.txt",
+    "source_sample": "row_005_B0007_cycle_005.bin",
+    "bytes": 88799,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "2a22ddff3097ace453daef157ddd029aeaca4af7eb5a482a570444a3e9517479"
+  },
+  {
+    "file": "6.txt",
+    "source_sample": "row_006_B0007_cycle_006.bin",
+    "bytes": 88869,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "43f77545d78ab72498bbe7b97985109f8152372eb3a34a17e4670fb224e3446f"
+  },
+  {
+    "file": "7.txt",
+    "source_sample": "row_007_B0007_cycle_007.bin",
+    "bytes": 88920,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "53e6b0437019e7fbefce0e35d118587d751439050b177dcd9c96b2d3f89c2f51"
+  },
+  {
+    "file": "8.txt",
+    "source_sample": "row_008_B0007_cycle_008.bin",
+    "bytes": 88900,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "90687e6455b34aab98fd8e6f26d29fe1e5ee671cb11cd49ebd55b2ac2748408d"
+  },
+  {
+    "file": "9.txt",
+    "source_sample": "row_009_B0007_cycle_009.bin",
+    "bytes": 88841,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "4bcad85f2c0fa7ed995b0d72f09766bb099e17b4e6f4798521b22ebd9ac360f7"
+  },
+  {
+    "file": "10.txt",
+    "source_sample": "row_010_B0007_cycle_010.bin",
+    "bytes": 88942,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "a2d0101ff17aa9a4d1dda8f286973f8125e72c60d9cee1bcdae190923743e683"
+  },
+  {
+    "file": "11.txt",
+    "source_sample": "row_011_B0007_cycle_011.bin",
+    "bytes": 88982,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "1eccb3921885387acf3e4bca09628dd94ffb8ccb56accfdceb1bcd32f30e1a06"
+  },
+  {
+    "file": "12.txt",
+    "source_sample": "row_012_B0007_cycle_012.bin",
+    "bytes": 88974,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "7403a3bf6cd41237bc1e7bdbf51adb0c6b1fbb5b1427d00653011213208b8d13"
+  },
+  {
+    "file": "13.txt",
+    "source_sample": "row_013_B0007_cycle_013.bin",
+    "bytes": 88798,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "64946f5f182b022780c82bffc0eb8dae861e61cb1d0f7b7e4c3524026f90e463"
+  },
+  {
+    "file": "14.txt",
+    "source_sample": "row_014_B0007_cycle_014.bin",
+    "bytes": 88903,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "3dbc26126ad4479b9f5e291afb9bb0ba3bdb9e60077949035a3969c4f7704d13"
+  },
+  {
+    "file": "15.txt",
+    "source_sample": "row_015_B0007_cycle_015.bin",
+    "bytes": 88993,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "b82d0844bb6f4433e631ff1d8f8d87c7d2787b5b396232a939ebfde358f0940a"
+  },
+  {
+    "file": "16.txt",
+    "source_sample": "row_016_B0007_cycle_016.bin",
+    "bytes": 88975,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "b20872b8c265adb0f94212eb267f4d5fdcc18a40a9d96a82bb5f170f9b53e47d"
+  },
+  {
+    "file": "17.txt",
+    "source_sample": "row_017_B0007_cycle_017.bin",
+    "bytes": 88980,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "fea7e2ab2367891cea8f5fdf4bdfaf546fa8dee837927ef342b038c5e1a59e15"
+  },
+  {
+    "file": "18.txt",
+    "source_sample": "row_018_B0007_cycle_018.bin",
+    "bytes": 88855,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "9d6af4f6159195c3a8777a67fcb7b36d46294de34aaefc3d0509be115c9339bc"
+  },
+  {
+    "file": "19.txt",
+    "source_sample": "row_019_B0007_cycle_019.bin",
+    "bytes": 89003,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "2c767827fe02b9787972d98366d44b2fae688f50e8a79c3d2f553638ac395cd7"
+  },
+  {
+    "file": "20.txt",
+    "source_sample": "row_020_B0007_cycle_020.bin",
+    "bytes": 88746,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "269606766e9c3b70354f6a4808e25484e84dfe12b8087a6ddbb72a45e5ca5a71"
+  },
+  {
+    "file": "21.txt",
+    "source_sample": "row_021_B0007_cycle_021.bin",
+    "bytes": 88854,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "26c96b5b45875599b27fa9e3acf280397fc1bbcfd149d07c7ef2aa78142c2240"
+  },
+  {
+    "file": "22.txt",
+    "source_sample": "row_022_B0007_cycle_022.bin",
+    "bytes": 88867,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "d60eca7d16dbd6961735f94ab8d1d839a9c1b6ec694dffe327becebc05c63d7d"
+  },
+  {
+    "file": "23.txt",
+    "source_sample": "row_023_B0007_cycle_023.bin",
+    "bytes": 88847,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "3dfa7f0b25dd326fb5575dd853990e7e2728687b4d52b1704a1fec90448120de"
+  },
+  {
+    "file": "24.txt",
+    "source_sample": "row_024_B0007_cycle_024.bin",
+    "bytes": 88873,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "aa5f031e54a17633c1aa219247b0f525c970ea268f7a96db2fa1567f7b244562"
+  },
+  {
+    "file": "25.txt",
+    "source_sample": "row_025_B0007_cycle_025.bin",
+    "bytes": 88856,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "d7f6bbfe2b39e5b11ea0e1ca4d56b8385e645f6d5e7c457445132c5c058fdd87"
+  },
+  {
+    "file": "26.txt",
+    "source_sample": "row_026_B0007_cycle_026.bin",
+    "bytes": 88835,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "7fbc462b074eb15dc847d83511f732dcd047dbb032da6ca31bb4f0fe963cec06"
+  },
+  {
+    "file": "27.txt",
+    "source_sample": "row_027_B0007_cycle_027.bin",
+    "bytes": 88932,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "335208c2b0cf9366e161837654a9132672738e13aa2c4c618da07c329ca48bbf"
+  },
+  {
+    "file": "28.txt",
+    "source_sample": "row_028_B0007_cycle_028.bin",
+    "bytes": 88956,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "8157df853e2f6a31f41d749d143ab40aa5a4f6c5e4925ac7b7efcf9eb91be3ea"
+  },
+  {
+    "file": "29.txt",
+    "source_sample": "row_029_B0007_cycle_029.bin",
+    "bytes": 89036,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "a49ebf2ec1fc172bd2c252023a39fd4d5247a482f59f2bcf1d856781797480fc"
+  },
+  {
+    "file": "30.txt",
+    "source_sample": "row_030_B0007_cycle_030.bin",
+    "bytes": 88968,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "2e6595aefd4239725e4b3dfc42cfa6f554518dccf60c9f2c89005056305865af"
+  },
+  {
+    "file": "31.txt",
+    "source_sample": "row_031_B0007_cycle_031.bin",
+    "bytes": 88877,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "9b597a47a6770a75f10fb199040410130335f354be517e147b5e66acc045ec90"
+  },
+  {
+    "file": "32.txt",
+    "source_sample": "row_032_B0007_cycle_032.bin",
+    "bytes": 88952,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "d3b05a6ffaeb786b8908b76bc5caf6d33beb59ca988a4a8ed3bd890a28130b89"
+  },
+  {
+    "file": "33.txt",
+    "source_sample": "row_033_B0007_cycle_033.bin",
+    "bytes": 88879,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "de52480d4045b4ba31ffbd5e4843318839f746b5b3a619bc13c1ab1513b870c4"
+  },
+  {
+    "file": "34.txt",
+    "source_sample": "row_034_B0007_cycle_034.bin",
+    "bytes": 88794,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "fa8a99302fe31695675be07095bdb7e276d2fb211ecfb941265f3235123f96fc"
+  },
+  {
+    "file": "35.txt",
+    "source_sample": "row_035_B0007_cycle_035.bin",
+    "bytes": 88952,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "755ca378677c9616632708bb0e85db73dd19e2d209e5baf0b0311e105d721ccd"
+  },
+  {
+    "file": "36.txt",
+    "source_sample": "row_036_B0007_cycle_036.bin",
+    "bytes": 88784,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "b19d266de139dde2c002ee2623ac6bc3239cae856bf5d457ea0c59c00b80bc33"
+  },
+  {
+    "file": "37.txt",
+    "source_sample": "row_037_B0007_cycle_037.bin",
+    "bytes": 88980,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "e99c383614b8f490eb5f1d2b900cbcbf44c5581675dd29a2e3a3b1ea350d0a4a"
+  },
+  {
+    "file": "38.txt",
+    "source_sample": "row_038_B0007_cycle_038.bin",
+    "bytes": 88917,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "a44bea9cba3ce33d2275ca590a028357f21a3abd332026aa55c6176519f9ba3a"
+  },
+  {
+    "file": "39.txt",
+    "source_sample": "row_039_B0007_cycle_039.bin",
+    "bytes": 88928,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "ff1256d32cfc641e59a4d0610f69fccf7b8d7ce3d320cb7b93fc6d0bbe669a4f"
+  },
+  {
+    "file": "40.txt",
+    "source_sample": "row_040_B0007_cycle_040.bin",
+    "bytes": 89002,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "dbf1ef2da2a75ca6177b5bbf1464a7401eff7ae0c4ad598f1a2e602eeda4907c"
+  },
+  {
+    "file": "41.txt",
+    "source_sample": "row_041_B0007_cycle_041.bin",
+    "bytes": 88965,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "7bd0eaa7e02a74af50b536220f092aead1291394a3ca5d717cee33e77c36d6a1"
+  },
+  {
+    "file": "42.txt",
+    "source_sample": "row_042_B0007_cycle_042.bin",
+    "bytes": 88876,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "85f9aac225acb30b3990ffe021ed340d81d3458b5a2c675fc1c6ef6bb0d81dbf"
+  },
+  {
+    "file": "43.txt",
+    "source_sample": "row_043_B0007_cycle_043.bin",
+    "bytes": 89002,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "a9a89020a335e9ab47364ae3a176b11fddb5aaf9a84766fa2de1c2b82b88db19"
+  },
+  {
+    "file": "44.txt",
+    "source_sample": "row_044_B0007_cycle_044.bin",
+    "bytes": 88941,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "c83fe5dd9802a4e7557fb18c710481266b6be88cd09d45c3d41130fa6367c3cb"
+  },
+  {
+    "file": "45.txt",
+    "source_sample": "row_045_B0007_cycle_045.bin",
+    "bytes": 89060,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "cf8a8306377ca73567d1b975eb0a6bc3d8f02c9370e8ed3da65ceb44dcdd0e8c"
+  },
+  {
+    "file": "46.txt",
+    "source_sample": "row_046_B0007_cycle_046.bin",
+    "bytes": 89096,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "73a7c68cd9d2e5131c6870510f841db9eb28ad71032294b5a53df370195d00fb"
+  },
+  {
+    "file": "47.txt",
+    "source_sample": "row_047_B0007_cycle_047.bin",
+    "bytes": 89194,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "fb979450700d128f4020040790f7e82b4a33e0912677c5a2adcbdd986b07f893"
+  },
+  {
+    "file": "48.txt",
+    "source_sample": "row_048_B0007_cycle_048.bin",
+    "bytes": 89026,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "c21661d5399cb6cc0bacae350ff58d250e5e99a90a196cb441da7d37cbe79958"
+  },
+  {
+    "file": "49.txt",
+    "source_sample": "row_049_B0007_cycle_049.bin",
+    "bytes": 89039,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "b069bfdf57c9d306b157350ab0cd7930534f614cb7c0957e59bf5200c86bb077"
+  },
+  {
+    "file": "50.txt",
+    "source_sample": "row_050_B0007_cycle_050.bin",
+    "bytes": 88913,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "ec15111dc1be3624fc65f397d4f852d99bc2a87b0ea951caf991fc59dde7fdfa"
+  },
+  {
+    "file": "51.txt",
+    "source_sample": "row_051_B0007_cycle_051.bin",
+    "bytes": 88949,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "becfd9c19f4c7740bdbde194d7c48e8288a7ffc822480b9479bc0a3bf9d79aed"
+  },
+  {
+    "file": "52.txt",
+    "source_sample": "row_052_B0007_cycle_052.bin",
+    "bytes": 88992,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "2784455da1ed8f2884aed3ca7cb24e6058223c8dbd6682654a85863cf96ef93c"
+  },
+  {
+    "file": "53.txt",
+    "source_sample": "row_053_B0007_cycle_053.bin",
+    "bytes": 89038,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "5dc2fdb8c23e9ab081bfe27497bbc0345cda078935328575885e9ee2b48db0fb"
+  },
+  {
+    "file": "54.txt",
+    "source_sample": "row_054_B0007_cycle_054.bin",
+    "bytes": 89073,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "1e3f0ff9db312a5e7047dc86d201cee486acf1584c8ad90648deb8b73cc22d6b"
+  },
+  {
+    "file": "55.txt",
+    "source_sample": "row_055_B0007_cycle_055.bin",
+    "bytes": 89091,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "55ede013fc3403880ccb6eba552575f6a2f04b7eeca2c772b4cc3235157ecc20"
+  },
+  {
+    "file": "56.txt",
+    "source_sample": "row_056_B0007_cycle_056.bin",
+    "bytes": 89056,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "e77dd0d5e01939669c7afc709772899d8f63fca380cb9ba9f45c7927cec895c1"
+  },
+  {
+    "file": "57.txt",
+    "source_sample": "row_057_B0007_cycle_057.bin",
+    "bytes": 89007,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "c71f8e52ec2ed3daac3ba51ccdd9b3c353504fb27f714552f1a7864a089e46be"
+  },
+  {
+    "file": "58.txt",
+    "source_sample": "row_058_B0007_cycle_058.bin",
+    "bytes": 89099,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "9c22c7aa3b733502c0c128b3c571d2f7068287b2c514ac33810d2b8e61027437"
+  },
+  {
+    "file": "59.txt",
+    "source_sample": "row_059_B0007_cycle_059.bin",
+    "bytes": 89055,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "5ca7ce8def424ff94fba4afa965a67ca13ae3497434e0516100ba76fe51c3db7"
+  },
+  {
+    "file": "60.txt",
+    "source_sample": "row_060_B0007_cycle_060.bin",
+    "bytes": 89155,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "cfdea954b68a74021641e41c6e8b4320a7fb4461c14b1cd89b0cfaf47bac5a40"
+  },
+  {
+    "file": "61.txt",
+    "source_sample": "row_061_B0007_cycle_061.bin",
+    "bytes": 89076,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "3669f57be69e04bf37d2929d64aef535353b995215b009cc1024a0cadf19f18f"
+  },
+  {
+    "file": "62.txt",
+    "source_sample": "row_062_B0007_cycle_062.bin",
+    "bytes": 89119,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "868efc1a75a90f7521c0fec4386668197b81d9f2a7b705f979b920455a60e91a"
+  },
+  {
+    "file": "63.txt",
+    "source_sample": "row_063_B0007_cycle_063.bin",
+    "bytes": 89244,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "ec3272de93833171a55e5b63a6b6fed5b60bddc882d123a5c663a7b591e8d832"
+  },
+  {
+    "file": "64.txt",
+    "source_sample": "row_064_B0007_cycle_064.bin",
+    "bytes": 89108,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "d10b8b8ecc91f14df4bdb161dc16a3e0c876f5805852f7062fe5fc321f07bbd5"
+  },
+  {
+    "file": "65.txt",
+    "source_sample": "row_065_B0007_cycle_065.bin",
+    "bytes": 89152,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "9ceb4b2a118192458765a11989b29e8a7c82c5c821d0983f9ebb42dcb1cbaa5d"
+  },
+  {
+    "file": "66.txt",
+    "source_sample": "row_066_B0007_cycle_066.bin",
+    "bytes": 89298,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "cd5a5f65016cdf03c877552c2975695ded0775221f23994399f15ea6563c87f1"
+  },
+  {
+    "file": "67.txt",
+    "source_sample": "row_067_B0007_cycle_067.bin",
+    "bytes": 89114,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "d072866e38887782ff3a7e218dd6eddf92295365dcd2bef2b4d38509a4d57224"
+  },
+  {
+    "file": "68.txt",
+    "source_sample": "row_068_B0007_cycle_068.bin",
+    "bytes": 89126,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "83eda55a4e2cf510f3ef941c503e03dbe16b10f8802ca9d05f252743c3f349f6"
+  },
+  {
+    "file": "69.txt",
+    "source_sample": "row_069_B0007_cycle_069.bin",
+    "bytes": 88993,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "a9eb1d3661a9a89d8aaffc2a750f80dfeb8b8fca3fc27625121c8a789b504b8d"
+  },
+  {
+    "file": "70.txt",
+    "source_sample": "row_070_B0007_cycle_070.bin",
+    "bytes": 89263,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "a48befcf7925ad57328c3091312b4355723fe7e51954996eda2014f93155c9ab"
+  },
+  {
+    "file": "71.txt",
+    "source_sample": "row_071_B0007_cycle_071.bin",
+    "bytes": 89234,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "7b769c076bd97c317f64f7fd4e53775f545254a62cd69cd08775b9c485ecbde6"
+  },
+  {
+    "file": "72.txt",
+    "source_sample": "row_072_B0007_cycle_072.bin",
+    "bytes": 89177,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "634198404d3bb0ef38f89e111c3b5b589eebeea01e06bf2bb5968026b21830c3"
+  },
+  {
+    "file": "73.txt",
+    "source_sample": "row_073_B0007_cycle_073.bin",
+    "bytes": 89369,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "86c718dfd82639cf910f9c86adbe00dae6732ca1a9b09ea047a102a8f926ca7c"
+  },
+  {
+    "file": "74.txt",
+    "source_sample": "row_074_B0007_cycle_074.bin",
+    "bytes": 89208,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "c60830dfa8509a7f0f35df37d6b02fb344cc67bda07c5658489be946828cf2e1"
+  },
+  {
+    "file": "75.txt",
+    "source_sample": "row_075_B0007_cycle_075.bin",
+    "bytes": 89130,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "50f445cbbfb74fdbec680671a0e3f5673430bef855d13e9c7ca887cea61c093d"
+  },
+  {
+    "file": "76.txt",
+    "source_sample": "row_076_B0007_cycle_076.bin",
+    "bytes": 89366,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "e84e6a21d73906753ba54d72d3fc33a678024e6c897042d1a4b4c2919384a4b2"
+  },
+  {
+    "file": "77.txt",
+    "source_sample": "row_077_B0007_cycle_077.bin",
+    "bytes": 89344,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "67f3bddb081a7b5300451d53bddcbbd1c9ff75b1e740397d9c31527d45b58038"
+  },
+  {
+    "file": "78.txt",
+    "source_sample": "row_078_B0007_cycle_078.bin",
+    "bytes": 89225,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "11631e967fc26ed47506469cb186bdbf7210af7bd833c5cbe3555b4fabeee1e1"
+  },
+  {
+    "file": "79.txt",
+    "source_sample": "row_079_B0007_cycle_079.bin",
+    "bytes": 89337,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "30de369ddeea3c190d91a46a5800af77bde146114ba6e1097473ef3023b49293"
+  },
+  {
+    "file": "80.txt",
+    "source_sample": "row_080_B0007_cycle_080.bin",
+    "bytes": 89467,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "5cf1d2fe9ef59d25370ce0155131ea3c82483edf5029eca0d79cdac90fef4c21"
+  },
+  {
+    "file": "81.txt",
+    "source_sample": "row_081_B0007_cycle_081.bin",
+    "bytes": 89309,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "9cd4499e13b281571ae1ed53a635c1e52654b49f132d851b45bd4d744d3aed3d"
+  },
+  {
+    "file": "82.txt",
+    "source_sample": "row_082_B0007_cycle_082.bin",
+    "bytes": 89332,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "35e99acaef183a4818348c93eb998baeb5d968ae3f3c0b5c1418a8d6935e35a5"
+  },
+  {
+    "file": "83.txt",
+    "source_sample": "row_083_B0007_cycle_083.bin",
+    "bytes": 89292,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "4191fb53381e2f7da10380a8b90ae1ae558cb36b4fd1c85d93c9a1482488f018"
+  },
+  {
+    "file": "84.txt",
+    "source_sample": "row_084_B0007_cycle_084.bin",
+    "bytes": 89443,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "5a33e76b979fa294839b2df1e6b26e3cef76a4e8ba5efc5f37169a1e8a741121"
+  },
+  {
+    "file": "85.txt",
+    "source_sample": "row_085_B0007_cycle_085.bin",
+    "bytes": 89374,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "1877298239dfa109ab9775e20e7ba5104e0e02278858817e8530a2e4347e1bd5"
+  },
+  {
+    "file": "86.txt",
+    "source_sample": "row_086_B0007_cycle_086.bin",
+    "bytes": 89466,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "2c937e42b18f401378e609e01d18c5ac9a7159c754eb96a9f4985f7be2b9f46f"
+  },
+  {
+    "file": "87.txt",
+    "source_sample": "row_087_B0007_cycle_087.bin",
+    "bytes": 89335,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "4546d17a31ad5e904ba5ecfb46bf47f9db8da5e6deff0a01b726a525c5c2b081"
+  },
+  {
+    "file": "88.txt",
+    "source_sample": "row_088_B0007_cycle_088.bin",
+    "bytes": 89401,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "8154d650d6724d4efbc465eaa5121b31ea229a12069293dca3f20ebcdb1e9b62"
+  },
+  {
+    "file": "89.txt",
+    "source_sample": "row_089_B0007_cycle_089.bin",
+    "bytes": 89495,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "6707b8b47ec7cda829e6443d5c67639d577fd7491a9f8fc192d0232477a8250c"
+  },
+  {
+    "file": "90.txt",
+    "source_sample": "row_090_B0007_cycle_090.bin",
+    "bytes": 89486,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "dee1740a55ec45da646be3acfa4da796e5a1a44e59aaac4b26bcaad36ecb9655"
+  },
+  {
+    "file": "91.txt",
+    "source_sample": "row_091_B0007_cycle_091.bin",
+    "bytes": 89350,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "803868b6368ec247e7755d31d290f8e6b506db3064209c74a0f680fb65a72c4a"
+  },
+  {
+    "file": "92.txt",
+    "source_sample": "row_092_B0007_cycle_092.bin",
+    "bytes": 89507,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "135d0f69b090627421bbfc4795222cfbf1b562f0500230754fd7323e9d3f8f26"
+  },
+  {
+    "file": "93.txt",
+    "source_sample": "row_093_B0007_cycle_093.bin",
+    "bytes": 89450,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "f7f04bbc43802805e788df44e83452a16fc4effa3e1913f891a60d34e4395301"
+  },
+  {
+    "file": "94.txt",
+    "source_sample": "row_094_B0007_cycle_094.bin",
+    "bytes": 89536,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "8a3c50844319bea721fe1a7c9afdba61f13a30ef3054df8166bc3c2024b515fc"
+  },
+  {
+    "file": "95.txt",
+    "source_sample": "row_095_B0007_cycle_095.bin",
+    "bytes": 89409,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "dc8d831e2ad781338928ab91edffa21bc1afda50a3046f1f3d506050657a2da0"
+  },
+  {
+    "file": "96.txt",
+    "source_sample": "row_096_B0007_cycle_096.bin",
+    "bytes": 89430,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "88a71d0b16e78ee65ee8b38eef076b1beea603c8a5168a611cdb38ab2e10e910"
+  },
+  {
+    "file": "97.txt",
+    "source_sample": "row_097_B0007_cycle_097.bin",
+    "bytes": 89426,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "fa7b5f06560122dd5d6167d0607942bfb7020d7bf8f2d601e9c0a2166c467bae"
+  },
+  {
+    "file": "98.txt",
+    "source_sample": "row_098_B0007_cycle_098.bin",
+    "bytes": 89504,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "f4caf21157174c16d2bb533d0610da681c35e509808e86e68055e912da06b78e"
+  },
+  {
+    "file": "99.txt",
+    "source_sample": "row_099_B0007_cycle_099.bin",
+    "bytes": 89547,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "fb46d94aabfaf866dad7f1d2b199e3bebef0932f1a707e85c72ef510f2fc817e"
+  },
+  {
+    "file": "100.txt",
+    "source_sample": "row_100_B0007_cycle_100.bin",
+    "bytes": 89634,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "0faaf187fcf8fbe6c4b8ad3538be76c666c932ba12ebbab55db320883a46b042"
+  },
+  {
+    "file": "101.txt",
+    "source_sample": "row_101_B0007_cycle_101.bin",
+    "bytes": 89467,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "bf8372450ac019c27fea03b320e7989a165830cfdb036c86e9e148190f06fe3d"
+  },
+  {
+    "file": "102.txt",
+    "source_sample": "row_102_B0007_cycle_102.bin",
+    "bytes": 89505,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "933c757c9d810551b53f9303501546a56cdef186218144fac4296f9bc26699b5"
+  },
+  {
+    "file": "103.txt",
+    "source_sample": "row_103_B0007_cycle_103.bin",
+    "bytes": 89502,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "3ed2a2f0e3e7987e49a6a877d82e51280abd9f04b969546abbae381cb22a2385"
+  },
+  {
+    "file": "104.txt",
+    "source_sample": "row_104_B0007_cycle_104.bin",
+    "bytes": 89435,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "bfe8374d3cb5c0fc7c9211e999a9986237729e76e2baf958513a8c17d5681840"
+  },
+  {
+    "file": "105.txt",
+    "source_sample": "row_105_B0007_cycle_105.bin",
+    "bytes": 89543,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "c3764231e913adffb0ce891cd2962cfa48f3614ebfe8350549ac48e070b9e2e0"
+  },
+  {
+    "file": "106.txt",
+    "source_sample": "row_106_B0007_cycle_106.bin",
+    "bytes": 89610,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "96a5fec8261b33003c149282f99420d5aedf235d03f5f8704ac42311f3ef8874"
+  },
+  {
+    "file": "107.txt",
+    "source_sample": "row_107_B0007_cycle_107.bin",
+    "bytes": 89572,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "99ee384f45669ceba2a48dd5a5dc37c01bdcc7dde7d655cd03fefe4dbdae3104"
+  },
+  {
+    "file": "108.txt",
+    "source_sample": "row_108_B0007_cycle_108.bin",
+    "bytes": 89507,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "9c100e7d03422207d599cabb560b3889a03ecb49c5ada0bd6d4b9283a11f83d5"
+  },
+  {
+    "file": "109.txt",
+    "source_sample": "row_109_B0007_cycle_109.bin",
+    "bytes": 89465,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "901b47628a06f540855416fc53f11dbf130a3fac4ab88fbfe45b296f940a5f9f"
+  },
+  {
+    "file": "110.txt",
+    "source_sample": "row_110_B0007_cycle_110.bin",
+    "bytes": 89532,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "03e3bbc2e9a468fdae0281791c92bb259bfd3cb284fa3e1da7cbdf6746cfc4dc"
+  },
+  {
+    "file": "111.txt",
+    "source_sample": "row_111_B0007_cycle_111.bin",
+    "bytes": 89549,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "4d923700daf0c65e785e0728daeb73bb19a2396692e90979dbe2e28a0f6d9dcb"
+  },
+  {
+    "file": "112.txt",
+    "source_sample": "row_112_B0007_cycle_112.bin",
+    "bytes": 89560,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "48e75fa63154690a66cfbf0490afdcd2aeb896296b3a53246e43295266b5ed71"
+  },
+  {
+    "file": "113.txt",
+    "source_sample": "row_113_B0007_cycle_113.bin",
+    "bytes": 89500,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "e1d14af67ded5fe0cd2030ecdfc4b934a21434a0737f4489172cd5880f7d034b"
+  },
+  {
+    "file": "114.txt",
+    "source_sample": "row_114_B0007_cycle_114.bin",
+    "bytes": 89440,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "f49300c4b7127d93de1ad6daa73a5cbcab7e0ff1f4561ce9af6cb32e7c3825a4"
+  },
+  {
+    "file": "115.txt",
+    "source_sample": "row_115_B0007_cycle_115.bin",
+    "bytes": 89623,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "8418673fb38a203e781725481e538d4f4adbad17f695079a3870fc74bf43296b"
+  },
+  {
+    "file": "116.txt",
+    "source_sample": "row_116_B0007_cycle_116.bin",
+    "bytes": 89574,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "8fc13364bc128f87f6de926e6756236fa473aae8170d13e22aa5aa9685cd886c"
+  },
+  {
+    "file": "117.txt",
+    "source_sample": "row_117_B0007_cycle_117.bin",
+    "bytes": 89456,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "9d3620b62814b9e03b2e9ee3b9a85e3ac84b532adfb320c87dc11706344a51c9"
+  },
+  {
+    "file": "118.txt",
+    "source_sample": "row_118_B0007_cycle_118.bin",
+    "bytes": 89616,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "f167dc38f2d5c233ea9f72c1e74af723618ccc65498d1f4fd4540833c911a9bd"
+  },
+  {
+    "file": "119.txt",
+    "source_sample": "row_119_B0007_cycle_119.bin",
+    "bytes": 89507,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "229db22f2fc9f269df6c7dff6979859cc2b97fe99180f60cd6c222e055ea9ea0"
+  },
+  {
+    "file": "120.txt",
+    "source_sample": "row_120_B0007_cycle_120.bin",
+    "bytes": 89573,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "f38d279eef74e5970b7dd9f6ea2547d05a28576ca488dd84b5d57977a5295328"
+  },
+  {
+    "file": "121.txt",
+    "source_sample": "row_121_B0007_cycle_121.bin",
+    "bytes": 89604,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "e35a2c49e4e117258a6c32dd4fdd58b21e730a5d86029a35dc269ca34c58cfb6"
+  },
+  {
+    "file": "122.txt",
+    "source_sample": "row_122_B0007_cycle_122.bin",
+    "bytes": 89420,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "5cbe0c07ee0bb8f702e4b4ddbce11e63b93cc311a5602935359d3cefd89c7dcc"
+  },
+  {
+    "file": "123.txt",
+    "source_sample": "row_123_B0007_cycle_123.bin",
+    "bytes": 89584,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "362c2b12ba7ff271280c6a062edbdb651750eb19ddc2fddc5cf434487f5dce1a"
+  },
+  {
+    "file": "124.txt",
+    "source_sample": "row_124_B0007_cycle_124.bin",
+    "bytes": 89537,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "aa00e69e1a21eb6fd2349aec30cf7b7954f3eabf5dc536adf473466be24b0101"
+  },
+  {
+    "file": "125.txt",
+    "source_sample": "row_125_B0007_cycle_125.bin",
+    "bytes": 89621,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "d50f4e124a4917b141cc17f822e1e29a0e58dd488186c2568e04f4dbd5e46668"
+  },
+  {
+    "file": "126.txt",
+    "source_sample": "row_126_B0007_cycle_126.bin",
+    "bytes": 89613,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "d3b8f7ab3bdfd3a959b15698807a64c53dc198bcfcf9a725e337057b71ac8abc"
+  },
+  {
+    "file": "127.txt",
+    "source_sample": "row_127_B0007_cycle_127.bin",
+    "bytes": 89799,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "a301f1010a388a8911372583e483511a83738ea084a72866035066f159b86f85"
+  },
+  {
+    "file": "128.txt",
+    "source_sample": "row_128_B0007_cycle_128.bin",
+    "bytes": 89673,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "41bfe3edd64f77218fb6c2cc0689fc4b91d77c8ef1392b64fff9dbdab6e47552"
+  },
+  {
+    "file": "129.txt",
+    "source_sample": "row_129_B0007_cycle_129.bin",
+    "bytes": 89678,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "abdb98809d0e712c56f31034fb636de5c4d60bdfb32fd52586b000a370115506"
+  },
+  {
+    "file": "130.txt",
+    "source_sample": "row_130_B0007_cycle_130.bin",
+    "bytes": 89816,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "28d3ce37f90552691a87bd832bcd3f0a8d9e3a3fccfc813c8df85c060243e96f"
+  },
+  {
+    "file": "131.txt",
+    "source_sample": "row_131_B0007_cycle_131.bin",
+    "bytes": 89674,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "7117fa363862a9de8458375ccf50456c4033bdbcd13aba32dc70877cae639798"
+  },
+  {
+    "file": "132.txt",
+    "source_sample": "row_132_B0007_cycle_132.bin",
+    "bytes": 89638,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "f0bf013a4e98a187cddf5160d6f42decef897d97666425957bc21e7ac3f5b5a5"
+  },
+  {
+    "file": "133.txt",
+    "source_sample": "row_133_B0007_cycle_133.bin",
+    "bytes": 89776,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "cfbcd40f2de5c9b090e0d5656305856ae6ccc9ffde3c748fc2d86703dc6b4aae"
+  },
+  {
+    "file": "134.txt",
+    "source_sample": "row_134_B0007_cycle_134.bin",
+    "bytes": 89690,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "c9f26654281c786fe2359732aa6d1465b5e3ee502cf2e8c63e4f63592f3d0d57"
+  },
+  {
+    "file": "135.txt",
+    "source_sample": "row_135_B0007_cycle_135.bin",
+    "bytes": 89763,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "d69ddfdffcb987f27febcc1c6b9f04dfe4fe1ca01339b0e13283e1aae58900e4"
+  },
+  {
+    "file": "136.txt",
+    "source_sample": "row_136_B0007_cycle_136.bin",
+    "bytes": 89625,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "5b7b8bd7c2a9fee8a257d03593f5fca0f3ba10853e6802c1bf341e0c7fcf2861"
+  },
+  {
+    "file": "137.txt",
+    "source_sample": "row_137_B0007_cycle_137.bin",
+    "bytes": 89677,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "319c17bdafe69fd3b947f2e49db68f872954571f95defb8aead179f55b2072e2"
+  },
+  {
+    "file": "138.txt",
+    "source_sample": "row_138_B0007_cycle_138.bin",
+    "bytes": 89633,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "906d08eaba36ba9966a47eca1a61a7947a8ba310b6a44f60a982341583079da5"
+  },
+  {
+    "file": "139.txt",
+    "source_sample": "row_139_B0007_cycle_139.bin",
+    "bytes": 89764,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "928897c015f1824f685833747e4ed76d4baf52d74dc3bd20a3bc1c385eec2953"
+  },
+  {
+    "file": "140.txt",
+    "source_sample": "row_140_B0007_cycle_140.bin",
+    "bytes": 89792,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "209833e68df721d9da29901fdbc38c59e657ca228765fbb4e3cc29529e741e8a"
+  },
+  {
+    "file": "141.txt",
+    "source_sample": "row_141_B0007_cycle_141.bin",
+    "bytes": 89887,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "d92fd6ba69c2836f3692ad2b443239c9087d3748e8d44eb9607eadaded3baff7"
+  },
+  {
+    "file": "142.txt",
+    "source_sample": "row_142_B0007_cycle_142.bin",
+    "bytes": 89706,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "7f60f2b1c0b05d2b9cd89a72e3675f4f8b75fe848d23dd6352bf4c8d17a5ecf4"
+  },
+  {
+    "file": "143.txt",
+    "source_sample": "row_143_B0007_cycle_143.bin",
+    "bytes": 89700,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "3ae3403f0f54cf71c9c8a2b801e4682f0da687850fa0c4ddea9a2ac600244a1c"
+  },
+  {
+    "file": "144.txt",
+    "source_sample": "row_144_B0007_cycle_144.bin",
+    "bytes": 89804,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "3514d431960cceac40e434df555d1199c161151d28352c09b401b100f403ae95"
+  },
+  {
+    "file": "145.txt",
+    "source_sample": "row_145_B0007_cycle_145.bin",
+    "bytes": 89686,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "375ce98cd410ef141ed04a59016b86243c151fccdccb058a9099e67bcea2795c"
+  },
+  {
+    "file": "146.txt",
+    "source_sample": "row_146_B0007_cycle_146.bin",
+    "bytes": 89685,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "347a54751389fe9da4e28c10f38e4d75707bb89d5d315648c55975f776396482"
+  },
+  {
+    "file": "147.txt",
+    "source_sample": "row_147_B0007_cycle_147.bin",
+    "bytes": 89812,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "6353cd8ebb4afae8514f175843fc18d88781433467c1c640c90963cce4319e92"
+  },
+  {
+    "file": "148.txt",
+    "source_sample": "row_148_B0007_cycle_148.bin",
+    "bytes": 89768,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "fc32dd8102c1314935995d826668124d1ef367d81ad7dfdd8e68fc11aa12284c"
+  },
+  {
+    "file": "149.txt",
+    "source_sample": "row_149_B0007_cycle_149.bin",
+    "bytes": 89728,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "e76b92fdb963f8ae884aef72d47c546d55a54180f7cd60d086ba9a1e17562d1e"
+  },
+  {
+    "file": "150.txt",
+    "source_sample": "row_150_B0007_cycle_150.bin",
+    "bytes": 89783,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "948494741864e7ecb3a498d5b05acdc10e0e7e243eee557e7f82c45f2fbc712a"
+  },
+  {
+    "file": "151.txt",
+    "source_sample": "row_151_B0007_cycle_151.bin",
+    "bytes": 89678,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "3245dbd2ad043112df68fa8279bae1bcbc25db4cecde08199be03ecfca91397c"
+  },
+  {
+    "file": "152.txt",
+    "source_sample": "row_152_B0007_cycle_152.bin",
+    "bytes": 89642,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "b4b6f375a129007e363288bb3b7aacce244f84faf348dab16f3f5e83f9327558"
+  },
+  {
+    "file": "153.txt",
+    "source_sample": "row_153_B0007_cycle_153.bin",
+    "bytes": 89734,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "7b361663d9149398cd2bb376615798d3d2f2b5c1d7fbd5961051a7669e7d8228"
+  },
+  {
+    "file": "154.txt",
+    "source_sample": "row_154_B0007_cycle_154.bin",
+    "bytes": 89810,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "736775da9b169d6fcb1f25ac554429fdc27e2769cfa87598a498346c1cc7d167"
+  },
+  {
+    "file": "155.txt",
+    "source_sample": "row_155_B0007_cycle_155.bin",
+    "bytes": 89711,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "3bffd00e671c5d5967659a84515bc875f73221a143db980fc5756b5d330dbf2d"
+  },
+  {
+    "file": "156.txt",
+    "source_sample": "row_156_B0007_cycle_156.bin",
+    "bytes": 89714,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "b1f5b777c8627a013707ec51fc63beb00537ba728e9f57a0206bb41f9a908a78"
+  },
+  {
+    "file": "157.txt",
+    "source_sample": "row_157_B0007_cycle_157.bin",
+    "bytes": 89662,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "0038f6775e6a505c038314ad1826457b8599234312b6495b6cac8ef670fbc8bc"
+  },
+  {
+    "file": "158.txt",
+    "source_sample": "row_158_B0007_cycle_158.bin",
+    "bytes": 89813,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "411ce3ccc9c2841b508db013f0d30cc436501443963997d5ddd32a05c4613cc3"
+  },
+  {
+    "file": "159.txt",
+    "source_sample": "row_159_B0007_cycle_159.bin",
+    "bytes": 89904,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "26af369b808f0cf4a7b1f1ddb0fb09fd7c313f17641d93436c67ad45d1d66dc2"
+  },
+  {
+    "file": "160.txt",
+    "source_sample": "row_160_B0007_cycle_160.bin",
+    "bytes": 89696,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "d3611d69213ac01639e8637fb04388651dd7aeae7e8a3ae24e63e9be12ae90d7"
+  },
+  {
+    "file": "161.txt",
+    "source_sample": "row_161_B0007_cycle_161.bin",
+    "bytes": 89790,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "5f464b234c478f35fd342332a0697596f066298c6e0f1ffffd36e4986f5f444d"
+  },
+  {
+    "file": "162.txt",
+    "source_sample": "row_162_B0007_cycle_162.bin",
+    "bytes": 89697,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "33378889bc0d62c8ba5a0b9cc7aea59e855e4d71c28101bdecff8f147ae0c86d"
+  },
+  {
+    "file": "163.txt",
+    "source_sample": "row_163_B0007_cycle_163.bin",
+    "bytes": 89891,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "5c0e824258c82e6e74ada797dba25bab8a30050bdaf9d9850c9f92befa882c97"
+  },
+  {
+    "file": "164.txt",
+    "source_sample": "row_164_B0007_cycle_164.bin",
+    "bytes": 89855,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "427c9750779d079f07945082345eed69c6be7d09032f532fe0eb4a1cb5c51503"
+  },
+  {
+    "file": "165.txt",
+    "source_sample": "row_165_B0007_cycle_165.bin",
+    "bytes": 89895,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "0f4eb3ac48bf809cb9d4b21b091a8cd45070c2bb2103eb68110b46ba1728bf03"
+  },
+  {
+    "file": "166.txt",
+    "source_sample": "row_166_B0007_cycle_166.bin",
+    "bytes": 89615,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "b864e6a41913c2cbfc6960f6a300db46e10c10442891f9db68b99d703befde50"
+  },
+  {
+    "file": "167.txt",
+    "source_sample": "row_167_B0032_cycle_001.bin",
+    "bytes": 88195,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "4cb0888425b0b6c13f635ce080f27da46ac4ab91abd9af0bf67bdd979422da33"
+  },
+  {
+    "file": "168.txt",
+    "source_sample": "row_168_B0032_cycle_002.bin",
+    "bytes": 88323,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "fab01beea4f19e7cdbde803b161f622685b0c2eed5d6c60ffd1b9eeaf9eb8c25"
+  },
+  {
+    "file": "169.txt",
+    "source_sample": "row_169_B0032_cycle_003.bin",
+    "bytes": 88503,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "1ca03527ef9d27bfbb69e9f05af9f4330909055fc28d87406a98b34f6ba4a285"
+  },
+  {
+    "file": "170.txt",
+    "source_sample": "row_170_B0032_cycle_004.bin",
+    "bytes": 88443,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "4dd5b516d665a66e3b55bf75f60a7b688e4e7bf9d9df4c14cd4b3468938d4a58"
+  },
+  {
+    "file": "171.txt",
+    "source_sample": "row_171_B0032_cycle_005.bin",
+    "bytes": 88474,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "518496366c158c305094aa3394496578116222dfd982160ee87ed2c760fedd84"
+  },
+  {
+    "file": "172.txt",
+    "source_sample": "row_172_B0032_cycle_006.bin",
+    "bytes": 88503,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "cd54d23ffbde7ca25bb0f64267b229baed4c34ca49878cd10b067d511c8e2e3c"
+  },
+  {
+    "file": "173.txt",
+    "source_sample": "row_173_B0032_cycle_007.bin",
+    "bytes": 88469,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "db2396fb58bcda2fcc9ba4cbbd26120c230a5119b9c5480aab841e0ed8856724"
+  },
+  {
+    "file": "174.txt",
+    "source_sample": "row_174_B0032_cycle_008.bin",
+    "bytes": 88602,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "5a5c59aa2d38ab04a2287ac1c5a6408c7b8a857c876124a4b5536452c29d8de7"
+  },
+  {
+    "file": "175.txt",
+    "source_sample": "row_175_B0032_cycle_009.bin",
+    "bytes": 88754,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "fec03b22f77bb105ac3264a1f57df8535566bda91d070b67b457c5305f7613c8"
+  },
+  {
+    "file": "176.txt",
+    "source_sample": "row_176_B0032_cycle_010.bin",
+    "bytes": 88928,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "b0c55005366bc966ea1b66bf40eeafbe127e05a713e3fb929a65508a460f62df"
+  },
+  {
+    "file": "177.txt",
+    "source_sample": "row_177_B0032_cycle_011.bin",
+    "bytes": 88898,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "f831780ec4e9f7458894aa6476031313af01c2ff08ab2962f4cd5272e9791d17"
+  },
+  {
+    "file": "178.txt",
+    "source_sample": "row_178_B0032_cycle_012.bin",
+    "bytes": 88713,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "12d09da8d9ba910f2d51b073113b0302f6661dfb4e0dc1f24607f059f06966ca"
+  },
+  {
+    "file": "179.txt",
+    "source_sample": "row_179_B0032_cycle_013.bin",
+    "bytes": 88941,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "e6df2f83e4bea99b67a3c56b5e6760b12f93a85f4a11fb07be0aad25ba516019"
+  },
+  {
+    "file": "180.txt",
+    "source_sample": "row_180_B0032_cycle_014.bin",
+    "bytes": 88952,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "70ac16ac9140d81e9604dbafe727a767e747b876376cbbf51eba205883f7eb73"
+  },
+  {
+    "file": "181.txt",
+    "source_sample": "row_181_B0032_cycle_015.bin",
+    "bytes": 88845,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "878bcf0990394f266289bd67aa3ee17d6aeb4ecdbd1297cf934c1b51c428aced"
+  },
+  {
+    "file": "182.txt",
+    "source_sample": "row_182_B0032_cycle_016.bin",
+    "bytes": 88543,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "dc595f887781b6f8778ec355b869e46507440d7729ceff487dafa07c071e533a"
+  },
+  {
+    "file": "183.txt",
+    "source_sample": "row_183_B0032_cycle_017.bin",
+    "bytes": 88783,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "36c7351a8b12a6e321abbc640fc80cec00be3a8e8836ad8719e599c1fde38125"
+  },
+  {
+    "file": "184.txt",
+    "source_sample": "row_184_B0032_cycle_018.bin",
+    "bytes": 88854,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "9d2e9f00bbcecd941ca955cdc5db70d5efbc5b44628cd7c9facca70cdfd8d77e"
+  },
+  {
+    "file": "185.txt",
+    "source_sample": "row_185_B0032_cycle_019.bin",
+    "bytes": 88815,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "6b48a0733da5c9e5a945f139a8315aea4d8ba30e39aeb82178a99a92a36066eb"
+  },
+  {
+    "file": "186.txt",
+    "source_sample": "row_186_B0032_cycle_020.bin",
+    "bytes": 88882,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "c569649922757d7f96058eecd16b2785ed3ee9925ae03381a88e3f1a0f2cddb6"
+  },
+  {
+    "file": "187.txt",
+    "source_sample": "row_187_B0032_cycle_021.bin",
+    "bytes": 88948,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "b55245cb297455c3bf19033c583c530f7556c9806100b63362a4b4005d749aa5"
+  },
+  {
+    "file": "188.txt",
+    "source_sample": "row_188_B0032_cycle_022.bin",
+    "bytes": 88927,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "6a1738bf3356f513489b463d20a7df4a2e0db1ea149683727bb83bbe2ea7f73e"
+  },
+  {
+    "file": "189.txt",
+    "source_sample": "row_189_B0032_cycle_023.bin",
+    "bytes": 89003,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "a65e774d6f91ce22088700f774a7512ce81beab7339810fc3ec31ebbb4d112f7"
+  },
+  {
+    "file": "190.txt",
+    "source_sample": "row_190_B0032_cycle_024.bin",
+    "bytes": 88902,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "2a7d88bdb662066c2c9389832bee6919fb83643f6952694f122ec6b2f1fe4f32"
+  },
+  {
+    "file": "191.txt",
+    "source_sample": "row_191_B0032_cycle_025.bin",
+    "bytes": 89034,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "e804d80b9cabd9940e6da4fc798e272d7b6742671671562eb2b9c3640da06089"
+  },
+  {
+    "file": "192.txt",
+    "source_sample": "row_192_B0032_cycle_026.bin",
+    "bytes": 89075,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "a05bf9dfaa23536ebeb88b75afa7542740e27bc47babcbd55f09dd67ace44f20"
+  },
+  {
+    "file": "193.txt",
+    "source_sample": "row_193_B0032_cycle_027.bin",
+    "bytes": 89074,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "5d9411c025380243b637d5d33bf4216d1789c64a64488046ffd3f572468f5e34"
+  },
+  {
+    "file": "194.txt",
+    "source_sample": "row_194_B0032_cycle_028.bin",
+    "bytes": 88905,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "b30321d832822eb645c52aed81577acaa5a7ce932aed5e4680cf3496d12f2fd6"
+  },
+  {
+    "file": "195.txt",
+    "source_sample": "row_195_B0032_cycle_029.bin",
+    "bytes": 89006,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "3548d9d6512427a411fba4ec3659fab91ff4ed057ed04ce521d025a639fffd71"
+  },
+  {
+    "file": "196.txt",
+    "source_sample": "row_196_B0032_cycle_030.bin",
+    "bytes": 88879,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "087a4913cfab7eaad8a22a0c5a4163a36836c025a97ec18ce3f48081ff79c966"
+  },
+  {
+    "file": "197.txt",
+    "source_sample": "row_197_B0032_cycle_031.bin",
+    "bytes": 88879,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "20f04098ba1e9f2b1897817452ad93ac68a1022830578241633ee68b0cc116c0"
+  },
+  {
+    "file": "198.txt",
+    "source_sample": "row_198_B0032_cycle_032.bin",
+    "bytes": 88972,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "3d4cb953ace5f385924c1a7a22cd939da689f60847c991c3a9e6098844166e10"
+  },
+  {
+    "file": "199.txt",
+    "source_sample": "row_199_B0032_cycle_033.bin",
+    "bytes": 89020,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "9dcf96e6f6e2ccb5b7030d55eae17258f7cd003bb509709e6b0484a7479376ae"
+  },
+  {
+    "file": "200.txt",
+    "source_sample": "row_200_B0032_cycle_034.bin",
+    "bytes": 89097,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "a4e40e73aaa6ff16ba4e205ccc016c47f3dca756bb2004f6a08186f386286ba7"
+  },
+  {
+    "file": "201.txt",
+    "source_sample": "row_201_B0032_cycle_035.bin",
+    "bytes": 89005,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "8ae8e2337bfb05199d663f884d62445e213212df104a9bc38e47e1f2da179237"
+  },
+  {
+    "file": "202.txt",
+    "source_sample": "row_202_B0032_cycle_036.bin",
+    "bytes": 88930,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "d48dfbdaa2b0cca511fc5331fbc4cc441f874a422be7cde4b3449644ac72aaf1"
+  },
+  {
+    "file": "203.txt",
+    "source_sample": "row_203_B0032_cycle_037.bin",
+    "bytes": 89152,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "b4b5fe464194fd71bd97e6be3fe712e4bed1ee8cce5e29a35f13d6ff7b103897"
+  },
+  {
+    "file": "204.txt",
+    "source_sample": "row_204_B0032_cycle_038.bin",
+    "bytes": 89148,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "764f685002a8cfae5111293379707bdcdd83a99d65431fe959dc1e02dd89725f"
+  },
+  {
+    "file": "205.txt",
+    "source_sample": "row_205_B0032_cycle_039.bin",
+    "bytes": 89036,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "f4561be68271843c5256f0c16fe540c16d84cf3881463181da5be1f0387bf094"
+  },
+  {
+    "file": "206.txt",
+    "source_sample": "row_206_B0038_cycle_001.bin",
+    "bytes": 89978,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "2668c295a67919af1251536e107eb75d528d0b548c8c9d25d3bdd8970d11cf04"
+  },
+  {
+    "file": "207.txt",
+    "source_sample": "row_207_B0038_cycle_002.bin",
+    "bytes": 90323,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "e99a6f4b69ad6c9ced3f397b0e56c443e0c02e984bc56e05aab5846902021d4b"
+  },
+  {
+    "file": "208.txt",
+    "source_sample": "row_208_B0038_cycle_003.bin",
+    "bytes": 90481,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "11cd60599334c974229c0a72c77bf95b48c7cadc00a2e2e9ce374dc38dbaf408"
+  },
+  {
+    "file": "209.txt",
+    "source_sample": "row_209_B0038_cycle_004.bin",
+    "bytes": 90745,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "452ce8d69b961cd0c4e5617db8884128939e0b27cd4931ebbceb3b7e86e04fc1"
+  },
+  {
+    "file": "210.txt",
+    "source_sample": "row_210_B0038_cycle_005.bin",
+    "bytes": 90646,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "878ab438ec666cfdd4f00d8f40b54a52f7774983445fdc61127aa27fc1a118dc"
+  },
+  {
+    "file": "211.txt",
+    "source_sample": "row_211_B0038_cycle_006.bin",
+    "bytes": 90530,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "0ed54c083069540b5c46419d916fbf67889fdeb21505ba7c1804fa955df51f46"
+  },
+  {
+    "file": "212.txt",
+    "source_sample": "row_212_B0038_cycle_007.bin",
+    "bytes": 90474,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "efedd96470baaf546771c9e434287c8b24ad94f79978b6e7c42dc5c760e8ebd4"
+  },
+  {
+    "file": "213.txt",
+    "source_sample": "row_213_B0038_cycle_008.bin",
+    "bytes": 90397,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "12f239e81eb53c928950494d187ecf75108e794a154146a4bc09ecf91d516a17"
+  },
+  {
+    "file": "214.txt",
+    "source_sample": "row_214_B0038_cycle_009.bin",
+    "bytes": 90563,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "67d0be0f4d34ff1907af0d5ebd20937bead6c46e19e1dee277ce7c858c82911a"
+  },
+  {
+    "file": "215.txt",
+    "source_sample": "row_215_B0038_cycle_010.bin",
+    "bytes": 90661,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "1d7b1e765dd80c7d92c44532a893065d0444cf57eff23e6500971cd5b363c731"
+  },
+  {
+    "file": "216.txt",
+    "source_sample": "row_216_B0038_cycle_011.bin",
+    "bytes": 90587,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "c4380bb0b8d824fe76e7e5b6587daa6471faded146e6aee8a320bfab3e64d209"
+  },
+  {
+    "file": "217.txt",
+    "source_sample": "row_217_B0038_cycle_012.bin",
+    "bytes": 90726,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "86cbe220a7e76cd5fbfcdef884463f20d29b5aada2c3d90d21ad8899d6091d01"
+  },
+  {
+    "file": "218.txt",
+    "source_sample": "row_218_B0038_cycle_013.bin",
+    "bytes": 89012,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "80717cf6499eac1dd61027a24ae578f4ecccb1798ef59c688fd0949280f26692"
+  },
+  {
+    "file": "219.txt",
+    "source_sample": "row_219_B0038_cycle_014.bin",
+    "bytes": 89007,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "f65bca8a8278147455cf7a77ec3af2a44c9a1db280d12ab23d44bc0206a30aa4"
+  },
+  {
+    "file": "220.txt",
+    "source_sample": "row_220_B0038_cycle_015.bin",
+    "bytes": 89147,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "5c80fa038f159527c518e94ee864f41d9e8eeb6b46f769bd053800f5adcce859"
+  },
+  {
+    "file": "221.txt",
+    "source_sample": "row_221_B0038_cycle_016.bin",
+    "bytes": 89031,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "6c6bc81050fb1b821a363458ff31bab1de1fe0a3bdbd650dba3f8f0d54a4986f"
+  },
+  {
+    "file": "222.txt",
+    "source_sample": "row_222_B0038_cycle_017.bin",
+    "bytes": 89016,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "645ec6cac21e97d11d6d0b976241de4884a65dc0ec984f6a8d17777e79f0d139"
+  },
+  {
+    "file": "223.txt",
+    "source_sample": "row_223_B0038_cycle_018.bin",
+    "bytes": 88826,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "b6d84baebce4a264f4e2d97bada28e74fab171ed48f9e0c00bb961544cd191a5"
+  },
+  {
+    "file": "224.txt",
+    "source_sample": "row_224_B0038_cycle_019.bin",
+    "bytes": 89034,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "ea6c578a75c6a544489f599a388cbdb36a8c840c50b59f674241bc10e1647c3c"
+  },
+  {
+    "file": "225.txt",
+    "source_sample": "row_225_B0038_cycle_020.bin",
+    "bytes": 89067,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "19e72567ac078bb1bfbad9a685b093623cf76f3f74e8e639e7512ac88dcc5d20"
+  },
+  {
+    "file": "226.txt",
+    "source_sample": "row_226_B0038_cycle_021.bin",
+    "bytes": 89190,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "4893c3ba2c9d398a02b6e8669c29b49a28c075ce06c596378a9ed0a4ae2bf811"
+  },
+  {
+    "file": "227.txt",
+    "source_sample": "row_227_B0038_cycle_022.bin",
+    "bytes": 89093,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "c2ad7b2cbe5e91547210f87e002fd3c3ba83c6f0b9e69f9ee3c5f31007a0c8ae"
+  },
+  {
+    "file": "228.txt",
+    "source_sample": "row_228_B0038_cycle_023.bin",
+    "bytes": 89011,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "1820812ee4d60ceaa4e60c36c3c095685434ce37334e64d851124fbf1325f433"
+  },
+  {
+    "file": "229.txt",
+    "source_sample": "row_229_B0038_cycle_024.bin",
+    "bytes": 88920,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "4305012738faecaadc12bb3083ef52ff30bcaf767930411dce1e9824716e2fed"
+  },
+  {
+    "file": "230.txt",
+    "source_sample": "row_230_B0038_cycle_025.bin",
+    "bytes": 88989,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "5296a3774a404a4254b2297d57f35aba5e660439d1d70687fe6f28c2215b476c"
+  },
+  {
+    "file": "231.txt",
+    "source_sample": "row_231_B0038_cycle_026.bin",
+    "bytes": 88815,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "8488e279d9834ba21157d8663099e3cd3ea040ffd115d609b37e9bc66a20381c"
+  },
+  {
+    "file": "232.txt",
+    "source_sample": "row_232_B0038_cycle_027.bin",
+    "bytes": 88995,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "fa7188d733e64d5d00096cb2eeeef836673a32e0aca8cba69ee23e7923636b7d"
+  },
+  {
+    "file": "233.txt",
+    "source_sample": "row_233_B0038_cycle_028.bin",
+    "bytes": 89008,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "bdfb8f1e9246b2457e8077f3e6100cde87df445d2de25575c40761229da9862e"
+  },
+  {
+    "file": "234.txt",
+    "source_sample": "row_234_B0038_cycle_029.bin",
+    "bytes": 88983,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "1a9341fba64e33250badec9362a08e168b3c0c5828ebbc0ec2fbac277638b4c9"
+  },
+  {
+    "file": "235.txt",
+    "source_sample": "row_235_B0038_cycle_030.bin",
+    "bytes": 89146,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "9e0643455fcf55ce6b6fe384bb112eb91d208f47f2754388124b3d4447434f84"
+  },
+  {
+    "file": "236.txt",
+    "source_sample": "row_236_B0038_cycle_031.bin",
+    "bytes": 88974,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "f3f974b0b801ddb096f0b4cfbe55196db3aceadc1d2f79e31ac7c7b5f002b605"
+  },
+  {
+    "file": "237.txt",
+    "source_sample": "row_237_B0038_cycle_032.bin",
+    "bytes": 88986,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "795e0f38d66b255db803f296c04f96f451bba237bc5386be3a842cc577cff90d"
+  },
+  {
+    "file": "238.txt",
+    "source_sample": "row_238_B0038_cycle_033.bin",
+    "bytes": 88897,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "8a9b8bcd42ae46c552f3f90302a72d4d1a3a96cba3e4b2f900a0bc493139eccc"
+  },
+  {
+    "file": "239.txt",
+    "source_sample": "row_239_B0038_cycle_034.bin",
+    "bytes": 88913,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "104421074890e0632de739bacd234a6a51c026888e31061783d2edd323b73fbc"
+  },
+  {
+    "file": "240.txt",
+    "source_sample": "row_240_B0038_cycle_035.bin",
+    "bytes": 89018,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "c1f0b89ef531cd858f8f4a9b2e7a04d0fd3097cc0554ae3b05e422bb01d4dc85"
+  },
+  {
+    "file": "241.txt",
+    "source_sample": "row_241_B0038_cycle_036.bin",
+    "bytes": 88946,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "f5d916239e424b4f451e9c8ae0d82ff7625504b438202bfb17b92f037e764573"
+  },
+  {
+    "file": "242.txt",
+    "source_sample": "row_242_B0038_cycle_037.bin",
+    "bytes": 88955,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "4e491c3b2df17707a3eb19e59bc35dd0d8ba69997a3d0c3f4849efc21271e5f4"
+  },
+  {
+    "file": "243.txt",
+    "source_sample": "row_243_B0038_cycle_038.bin",
+    "bytes": 88969,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "981a26193339be819f6e554939be715125332d1187974c7171250ed27c43aa64"
+  },
+  {
+    "file": "244.txt",
+    "source_sample": "row_244_B0038_cycle_039.bin",
+    "bytes": 89050,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "1f025c214e87d3e82fd909ea160e1fdc80438dfb59a293fe63e05cf29c309b45"
+  },
+  {
+    "file": "245.txt",
+    "source_sample": "row_245_B0038_cycle_040.bin",
+    "bytes": 89037,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "812d3044cd39929d6b39a0e16686aadd669d844b09629d139a4c0f0b39a1caf6"
+  },
+  {
+    "file": "246.txt",
+    "source_sample": "row_246_B0038_cycle_041.bin",
+    "bytes": 89029,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "79630c2fd7066864d27f458e81780c5fa646f7d2ea609f9afd685319a2312ed6"
+  },
+  {
+    "file": "247.txt",
+    "source_sample": "row_247_B0038_cycle_042.bin",
+    "bytes": 89060,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "2c6acbb95a220ccd3d1cf267a728eca7c7551565ee49d0cd92736ff44e604415"
+  },
+  {
+    "file": "248.txt",
+    "source_sample": "row_248_B0038_cycle_043.bin",
+    "bytes": 89144,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "9bc8bf4e61bdab0e55c5e678d84f7e7ca3d1ad05fcea27236c1afd445e4c94fd"
+  },
+  {
+    "file": "249.txt",
+    "source_sample": "row_249_B0038_cycle_044.bin",
+    "bytes": 88935,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "e8706e548c4a8c57f1485987a172f9200c7bf4d3ad3ace20d0862b32e05a3235"
+  },
+  {
+    "file": "250.txt",
+    "source_sample": "row_250_B0038_cycle_045.bin",
+    "bytes": 89032,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "73a2a59f5cb2d4535d440703162c94b303ae34732a5ec1fdd8395d49feed21ac"
+  },
+  {
+    "file": "251.txt",
+    "source_sample": "row_251_B0038_cycle_046.bin",
+    "bytes": 89416,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "2061b6ea7afe0c7bc41cc190ac408adeed4645cdc3f0ca5b6513ed152ade6db1"
+  },
+  {
+    "file": "252.txt",
+    "source_sample": "row_252_B0046_cycle_001.bin",
+    "bytes": 89463,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "b3ff4297a8574dfff88a6fc3177a9a4734cd9bf2d816bb4e6c48d68ac25abed5"
+  },
+  {
+    "file": "253.txt",
+    "source_sample": "row_253_B0046_cycle_002.bin",
+    "bytes": 89570,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "7297f938fa4825b69b05c429e682700709ebe53d39323d4f0ae9a60f3775f4bb"
+  },
+  {
+    "file": "254.txt",
+    "source_sample": "row_254_B0046_cycle_003.bin",
+    "bytes": 89605,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "3aefd2da57a092c56ef8853934c3cb6a1c9e9a8c57096093c3fd7fde4d9410a5"
+  },
+  {
+    "file": "255.txt",
+    "source_sample": "row_255_B0046_cycle_004.bin",
+    "bytes": 89533,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "dbad3c9279fa2f69ab1d3faca69dff746dd4caba1814eeb346fb480f78021e54"
+  },
+  {
+    "file": "256.txt",
+    "source_sample": "row_256_B0046_cycle_005.bin",
+    "bytes": 89694,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "cdf83273b8d1b1b5f2418b19dbf274ec395eb481b9c79826eeeac90aa23b3da1"
+  },
+  {
+    "file": "257.txt",
+    "source_sample": "row_257_B0046_cycle_006.bin",
+    "bytes": 89724,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "01ae2af2c2ccac75f78a6f0ca74d7884200116515f50bdeeaf965b3233964c48"
+  },
+  {
+    "file": "258.txt",
+    "source_sample": "row_258_B0046_cycle_007.bin",
+    "bytes": 89651,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "d186f0ead73fb09d108eaca9203e2e101464aba8bd8860cdff07ba0c11896d40"
+  },
+  {
+    "file": "259.txt",
+    "source_sample": "row_259_B0046_cycle_008.bin",
+    "bytes": 89549,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "3ca07cc3ede4d99d5977494da41822b9a80c46e2391ffd699545b14254076a5a"
+  },
+  {
+    "file": "260.txt",
+    "source_sample": "row_260_B0046_cycle_009.bin",
+    "bytes": 89723,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "ee14a0981c1ad03396612ab4ebecbb15e4ce1c6514b2f1ab513bff51f71a1d2e"
+  },
+  {
+    "file": "261.txt",
+    "source_sample": "row_261_B0046_cycle_010.bin",
+    "bytes": 89528,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "37540632f039b13364122f5a9b7429a5e5386df58cd2494147b851dc42977211"
+  },
+  {
+    "file": "262.txt",
+    "source_sample": "row_262_B0046_cycle_011.bin",
+    "bytes": 89571,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "6c867f32bdc4b7d61c119b34e39e466ffa702fec4e09ab63f127e7b9297e4bd6"
+  },
+  {
+    "file": "263.txt",
+    "source_sample": "row_263_B0046_cycle_012.bin",
+    "bytes": 89851,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "61c28dbfcfc35ac3d9eb61a9b0ab88ab56fe443123e3416200aebc0188f7ac0a"
+  },
+  {
+    "file": "264.txt",
+    "source_sample": "row_264_B0046_cycle_013.bin",
+    "bytes": 89503,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "328c30c3e30bba246326a27598241b9c8a0457fa58346c26c91934320671bb69"
+  },
+  {
+    "file": "265.txt",
+    "source_sample": "row_265_B0046_cycle_014.bin",
+    "bytes": 89620,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "d18bdf55d1ceb75b7687289e6b08bd705185cc2c1992007dd5f9afa01167a3a1"
+  },
+  {
+    "file": "266.txt",
+    "source_sample": "row_266_B0046_cycle_015.bin",
+    "bytes": 89790,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "d02ebf0394ba11d6ac2f1fa432af1cd6a9f02ee47a81dee2d682602720d2a354"
+  },
+  {
+    "file": "267.txt",
+    "source_sample": "row_267_B0046_cycle_016.bin",
+    "bytes": 89696,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "cbc38d5fc4e0968eee1f9c094746881c6bc48aa6c4809b3f86c0065f0e34d06f"
+  },
+  {
+    "file": "268.txt",
+    "source_sample": "row_268_B0046_cycle_017.bin",
+    "bytes": 89620,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "fdad10a8f84e5455d2f227629fd0e0b8cf3779685a936ff0cd754582b8798d22"
+  },
+  {
+    "file": "269.txt",
+    "source_sample": "row_269_B0046_cycle_018.bin",
+    "bytes": 89803,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "314f8d959e785ca57e3ed49217fe4f296d8048aecd414b70de3017f9038d5413"
+  },
+  {
+    "file": "270.txt",
+    "source_sample": "row_270_B0046_cycle_019.bin",
+    "bytes": 89678,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "83da66eaff3767f486ea68add1fc8a0275168d0862a7c524762bb383da956166"
+  },
+  {
+    "file": "271.txt",
+    "source_sample": "row_271_B0046_cycle_020.bin",
+    "bytes": 91604,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "c7d12ee7aab44fc07726b7fd3cf20606c0cfa33b3a153282018a061545aa5bf4"
+  },
+  {
+    "file": "272.txt",
+    "source_sample": "row_272_B0046_cycle_021.bin",
+    "bytes": 89837,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "a60048caf08d2cdc6f8ed112138d3645afc72fe53bfee19a23201a3ab467b3d0"
+  },
+  {
+    "file": "273.txt",
+    "source_sample": "row_273_B0046_cycle_022.bin",
+    "bytes": 89935,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "714c2fbb679b5c1e67ebaaf8c0ff0621a57537b10b9ad55aabfa27b7021006c3"
+  },
+  {
+    "file": "274.txt",
+    "source_sample": "row_274_B0046_cycle_023.bin",
+    "bytes": 89965,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "980709b253d2dbd7d5f9acdf88985bafa4e6a7378a6ef2b2046464888b9bfeee"
+  },
+  {
+    "file": "275.txt",
+    "source_sample": "row_275_B0046_cycle_024.bin",
+    "bytes": 89809,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "dc9a0f47505b9ddf6962129ce5b08fa2b74c186061e6faec2412163cabdd4156"
+  },
+  {
+    "file": "276.txt",
+    "source_sample": "row_276_B0046_cycle_025.bin",
+    "bytes": 89959,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "4924804ebcd2b139009ccea36e31f2f94463b2fa915681f98e0f788f71ea8d3d"
+  },
+  {
+    "file": "277.txt",
+    "source_sample": "row_277_B0046_cycle_026.bin",
+    "bytes": 90024,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "b8e34500e68a08f41636e52a459c1d45b75be97233ef778f2a3e19dc9217db92"
+  },
+  {
+    "file": "278.txt",
+    "source_sample": "row_278_B0046_cycle_027.bin",
+    "bytes": 89981,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "4ad8cbaa600ab85fe82a4f2c698c2cac73c048aa80d2ab2cc5f3d9866293950b"
+  },
+  {
+    "file": "279.txt",
+    "source_sample": "row_279_B0046_cycle_028.bin",
+    "bytes": 90144,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "d4c4d0cb2240e0c5dccbcb7537b178bb62fe14a0bc3c70071f546dcdb5741524"
+  },
+  {
+    "file": "280.txt",
+    "source_sample": "row_280_B0046_cycle_029.bin",
+    "bytes": 90024,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "2e8491b3f392e3f995a22a08a4b330f1f2a5901a3ffc154db7da17e0e061168f"
+  },
+  {
+    "file": "281.txt",
+    "source_sample": "row_281_B0046_cycle_030.bin",
+    "bytes": 90140,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "6bfaa80516fc64a704b13643b1452596c00425f2dc645b42ede4bde0874117cb"
+  },
+  {
+    "file": "282.txt",
+    "source_sample": "row_282_B0046_cycle_031.bin",
+    "bytes": 89973,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "cf5668718f180a17f15254c60494882a0ed2cd56e561bd4f658d1b20fc28edd5"
+  },
+  {
+    "file": "283.txt",
+    "source_sample": "row_283_B0046_cycle_032.bin",
+    "bytes": 90003,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "53ed7ee107c71b5adc99a30dd12c19fe965f854677ebb814a6e2b4453a125e0c"
+  },
+  {
+    "file": "284.txt",
+    "source_sample": "row_284_B0046_cycle_033.bin",
+    "bytes": 90035,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "d15f64be7feb6b2784f7c8f0709dc8c1661fa8afa300522860fb3512b14c34df"
+  },
+  {
+    "file": "285.txt",
+    "source_sample": "row_285_B0046_cycle_034.bin",
+    "bytes": 90027,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "e090563f6d45f03726a43400f332b3c1700794fac9535886a01d2a1f4d414fb2"
+  },
+  {
+    "file": "286.txt",
+    "source_sample": "row_286_B0046_cycle_035.bin",
+    "bytes": 89826,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "cd08622bb2efe61da6f14e91f8431421dfce417b6128ea85410f620e95b7a088"
+  },
+  {
+    "file": "287.txt",
+    "source_sample": "row_287_B0046_cycle_036.bin",
+    "bytes": 89956,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "b586d9bcc096aaa8e9b607a18551b3e3a52fb9c65fa4cc4c7c684bad9de1f08e"
+  },
+  {
+    "file": "288.txt",
+    "source_sample": "row_288_B0046_cycle_037.bin",
+    "bytes": 90007,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "4a05fca36000bbb127bd3d162d05d2a4d2b7e0ae7b913194ab841190b3671717"
+  },
+  {
+    "file": "289.txt",
+    "source_sample": "row_289_B0046_cycle_038.bin",
+    "bytes": 90029,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "e8207e078662a20e6a61bbe564eb1dddab7c480869b92e0235d37f97aeaf4a95"
+  },
+  {
+    "file": "290.txt",
+    "source_sample": "row_290_B0046_cycle_039.bin",
+    "bytes": 90059,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "15b44c1b4290717c4f66e9fa9f4d3eee10afa20efce2e00a8defaab70b574b74"
+  },
+  {
+    "file": "291.txt",
+    "source_sample": "row_291_B0046_cycle_040.bin",
+    "bytes": 89937,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "54f8269fe2f3523b71679d14561262455525ab4ea69bec91d34ec7406505da48"
+  },
+  {
+    "file": "292.txt",
+    "source_sample": "row_292_B0046_cycle_041.bin",
+    "bytes": 90095,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "9cdab37d9acdf8d6b2e215ff50eb490a2ca6f08a60c263ce5c833b3de86d8d43"
+  },
+  {
+    "file": "293.txt",
+    "source_sample": "row_293_B0046_cycle_042.bin",
+    "bytes": 90157,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "9e3853baab139b02e43b65a0a5cdaf5278cc667ded65e0f63f974f1e93c96e48"
+  },
+  {
+    "file": "294.txt",
+    "source_sample": "row_294_B0046_cycle_043.bin",
+    "bytes": 90082,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "16e4d906ea108f1ffb7ef663ca9c30df4630081f46e1d3b9c44b41773a212fa7"
+  },
+  {
+    "file": "295.txt",
+    "source_sample": "row_295_B0046_cycle_044.bin",
+    "bytes": 90230,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "5ff78fd63961a4ab92ae294f5dd9449adae152e9d3b288994b002c8101267fda"
+  },
+  {
+    "file": "296.txt",
+    "source_sample": "row_296_B0046_cycle_045.bin",
+    "bytes": 90225,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "899d440646eebc33b26c1afb625dae5f2fd7e16ddbd925abf2e89997cc21a9fa"
+  },
+  {
+    "file": "297.txt",
+    "source_sample": "row_297_B0046_cycle_046.bin",
+    "bytes": 90108,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "b73546e585cace96a4965336d4ec0ecf6c1206083c573a34ae275265c8e63e4c"
+  },
+  {
+    "file": "298.txt",
+    "source_sample": "row_298_B0046_cycle_047.bin",
+    "bytes": 90032,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "6d381d28035448fbb162ae48a22a8e5b6e2051b0647ff623a5a2eb44273d7e30"
+  },
+  {
+    "file": "299.txt",
+    "source_sample": "row_299_B0046_cycle_048.bin",
+    "bytes": 90208,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "faf0c8028effdc43ed320ea3f96a32f284928013e62cb2b3310190aac9c28c73"
+  },
+  {
+    "file": "300.txt",
+    "source_sample": "row_300_B0046_cycle_049.bin",
+    "bytes": 90287,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "cddfbb9cb0501ba4bb2e205e7baa4395cbd6437fc2371d082eb096aa6319dacb"
+  },
+  {
+    "file": "301.txt",
+    "source_sample": "row_301_B0046_cycle_050.bin",
+    "bytes": 90155,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "ed8f5643889dd9e732153836d70b4ec93fdb455a988155ca0fb282e8c87808cd"
+  },
+  {
+    "file": "302.txt",
+    "source_sample": "row_302_B0046_cycle_051.bin",
+    "bytes": 90181,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "91e753bbecaea6c1fa37a2464aba4e04a49b49f1569d2ad4e8f2067809739952"
+  },
+  {
+    "file": "303.txt",
+    "source_sample": "row_303_B0046_cycle_052.bin",
+    "bytes": 90268,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "217e07bcf87c9c78047c8b9ff914c1f2061ef993a16da39d092b9e6d073410b2"
+  },
+  {
+    "file": "304.txt",
+    "source_sample": "row_304_B0046_cycle_053.bin",
+    "bytes": 90267,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "0d22d0d3ee291e860d7ebd354fa9028d0c958d149cb46967d1201dc26493e794"
+  },
+  {
+    "file": "305.txt",
+    "source_sample": "row_305_B0046_cycle_054.bin",
+    "bytes": 90060,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "21ddb0f91ac8d0e6136aeca5ba9a5ee6b322f99a48ace8ada3cbcec0475ddb51"
+  },
+  {
+    "file": "306.txt",
+    "source_sample": "row_306_B0046_cycle_055.bin",
+    "bytes": 90176,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "a8ccba545f070c84fd83e1443295b23a6cb533528c7c8498d603b85bdaf022b2"
+  },
+  {
+    "file": "307.txt",
+    "source_sample": "row_307_B0046_cycle_056.bin",
+    "bytes": 90297,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "21261b5960492f713b7b710db71897f60e6abc097ae081f17b751fd613040dcb"
+  },
+  {
+    "file": "308.txt",
+    "source_sample": "row_308_B0046_cycle_057.bin",
+    "bytes": 90128,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "34fa2ae9546df689f24bab622b4d38dbce3cf5dc4d89715d8a3a6b3b7b4a63a5"
+  },
+  {
+    "file": "309.txt",
+    "source_sample": "row_309_B0046_cycle_058.bin",
+    "bytes": 90020,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "6345fca2d8cc6ed3d22ad41e202a895e572e29c486588db7a986d37d1e2ee3e1"
+  },
+  {
+    "file": "310.txt",
+    "source_sample": "row_310_B0046_cycle_059.bin",
+    "bytes": 90105,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "bb77b9656fd5db0b45f836be0925ec874d7e6555b34eee26d022e3e5bd7f7d17"
+  },
+  {
+    "file": "311.txt",
+    "source_sample": "row_311_B0046_cycle_060.bin",
+    "bytes": 90056,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "0e596a2799e5d551de70e46cec8e3f6d6d1063c7bf021dff1d3d65b649d2964e"
+  },
+  {
+    "file": "312.txt",
+    "source_sample": "row_312_B0046_cycle_061.bin",
+    "bytes": 90193,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "b56af19c7d08f9ce7d8591266eb44ca1b916151b5a6a20b6258e5a4d81d73065"
+  },
+  {
+    "file": "313.txt",
+    "source_sample": "row_313_B0046_cycle_062.bin",
+    "bytes": 89921,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "c55fe319863d3d375e5f2ed5f31a9408e9e3785e8fb12a99def95f0d0313c7d8"
+  },
+  {
+    "file": "314.txt",
+    "source_sample": "row_314_B0046_cycle_063.bin",
+    "bytes": 90239,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "37d83ac9ace829ec538c6c32664506f0c380d5b6ac89e2f06e61f126dce1dcfe"
+  },
+  {
+    "file": "315.txt",
+    "source_sample": "row_315_B0046_cycle_064.bin",
+    "bytes": 90144,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "a47a6a8e584c5ea325392163f1f3fc40fc54e356ffff0eb3e77c1fa59f337247"
+  },
+  {
+    "file": "316.txt",
+    "source_sample": "row_316_B0046_cycle_065.bin",
+    "bytes": 90244,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "e94cc638fb1277b26b917b7d769b1df59da8fc77cef42acf3420b2533051eff3"
+  },
+  {
+    "file": "317.txt",
+    "source_sample": "row_317_B0046_cycle_066.bin",
+    "bytes": 91748,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "ac055901975d23b6c484ba01819d8e85c3c53c441d9ee7a50a8942ba192d1e5a"
+  },
+  {
+    "file": "318.txt",
+    "source_sample": "row_318_B0046_cycle_067.bin",
+    "bytes": 89880,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "f7eaf42a146b3e54531d43a97655f7629423b96b8be41eeb3686cb37f4a4af83"
+  },
+  {
+    "file": "319.txt",
+    "source_sample": "row_319_B0046_cycle_068.bin",
+    "bytes": 90101,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "e1481ccb22a846771f8a7bc7c588f67b2ea9e02234c41c720e34ef0a42bb3706"
+  },
+  {
+    "file": "320.txt",
+    "source_sample": "row_320_B0046_cycle_069.bin",
+    "bytes": 90025,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "c770bb106eeed96a87ade86235c9ec2d7091c05a8ec44dbb6656bb1d7c3dd8ee"
+  },
+  {
+    "file": "321.txt",
+    "source_sample": "row_321_B0046_cycle_070.bin",
+    "bytes": 90175,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "e51032c7fa642dbc6a31fa67c3196e562de6aa55fd654123698f01269e46650b"
+  },
+  {
+    "file": "322.txt",
+    "source_sample": "row_322_B0046_cycle_071.bin",
+    "bytes": 90215,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "d4fce1f717cb0dfe2a0d8ac6807da6aea459e49cefcefc5e0cf24db517824cf9"
+  },
+  {
+    "file": "323.txt",
+    "source_sample": "row_323_B0046_cycle_072.bin",
+    "bytes": 90086,
+    "rows": 4000,
+    "columns": [
+      "voltage_V",
+      "current_A"
+    ],
+    "separator": "#",
+    "sha256": "73c0088988ca9ea74c29dc1090ca9f948bfc111daeb08c1006a58587ede84501"
+  }
+]

@@ -1,0 +1,135 @@
+{
+  "source": "C:\\Users\\33827\\Desktop\\3.txt",
+  "source_sha256": "8d50beaeeea1424d3bfe8b167cef944391311e707ba3ef98f659f899be24622a",
+  "rows": 4345,
+  "reference_rows": 323,
+  "reference_batteries": [
+    7,
+    32,
+    38,
+    46
+  ],
+  "method": "101-quantile piecewise-linear monotone mapping to the NASA pointwise-median curve; duplicate source knots averaged",
+  "scope": "Artificial distribution alignment, NOT validated sensor calibration or SOH accuracy improvement. No time resampling, smoothing, extrapolated tail, firmware change or label transfer.",
+  "quantile_levels": [
+    0,
+    0.01,
+    0.1,
+    0.5,
+    0.9,
+    0.99,
+    1
+  ],
+  "raw_quantiles": [
+    [
+      3.26,
+      0.53
+    ],
+    [
+      3.65595,
+      0.578
+    ],
+    [
+      4.02125,
+      0.703
+    ],
+    [
+      4.1875,
+      1.202
+    ],
+    [
+      4.1975,
+      1.725
+    ],
+    [
+      4.20375,
+      1.8955600000000004
+    ],
+    [
+      4.20625,
+      2.067
+    ]
+  ],
+  "transformed_quantiles": [
+    [
+      3.4129,
+      -1.7911
+    ],
+    [
+      3.8400638695281426,
+      0.064999
+    ],
+    [
+      3.98747,
+      0.09169000000000001
+    ],
+    [
+      4.209359999999999,
+      0.46935
+    ],
+    [
+      4.21155,
+      1.4917
+    ],
+    [
+      4.2126,
+      1.493200239897108
+    ],
+    [
+      4.2128,
+      1.4939
+    ]
+  ],
+  "reference_median_quantiles": [
+    [
+      3.4129,
+      -1.7911
+    ],
+    [
+      3.841086,
+      0.064999
+    ],
+    [
+      3.98747,
+      0.09169000000000001
+    ],
+    [
+      4.2091,
+      0.46935
+    ],
+    [
+      4.2115,
+      1.4917
+    ],
+    [
+      4.2126,
+      1.4932
+    ],
+    [
+      4.2128,
+      1.4939
+    ]
+  ],
+  "raw_first100_median": [
+    3.6799999999999997,
+    1.888
+  ],
+  "raw_last100_median": [
+    4.2025,
+    0.597
+  ],
+  "transformed_first100_median": [
+    3.847140899259259,
+    1.4931764925373137
+  ],
+  "transformed_last100_median": [
+    4.21255,
+    0.06596758893280633
+  ],
+  "validation": {
+    "row_count_preserved": true,
+    "finite": true,
+    "monotone_mapping": true,
+    "max_export_rounding_error": 5.00000000069889e-07
+  }
+}

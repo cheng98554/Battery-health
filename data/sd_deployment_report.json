@@ -1,0 +1,178 @@
+{
+  "generated_txt_files": 323,
+  "all_real_files_parsed_exactly": true,
+  "edge_cases": [
+    {
+      "case": "one_byte_chunks",
+      "status": 0,
+      "error_line": 0,
+      "passed": true
+    },
+    {
+      "case": "seven_byte_chunks",
+      "status": 0,
+      "error_line": 0,
+      "passed": true
+    },
+    {
+      "case": "BOM_CRLF",
+      "status": 0,
+      "error_line": 0,
+      "passed": true
+    },
+    {
+      "case": "no_final_newline",
+      "status": 0,
+      "error_line": 0,
+      "passed": true
+    },
+    {
+      "case": "blank_lines",
+      "status": 0,
+      "error_line": 0,
+      "passed": true
+    },
+    {
+      "case": "spaces_around_hash",
+      "status": 0,
+      "error_line": 0,
+      "passed": true
+    },
+    {
+      "case": "short_file",
+      "status": -3,
+      "error_line": 2,
+      "passed": true
+    },
+    {
+      "case": "extra_row",
+      "status": -3,
+      "error_line": 4001,
+      "passed": true
+    },
+    {
+      "case": "third_column",
+      "status": -2,
+      "error_line": 1,
+      "passed": true
+    },
+    {
+      "case": "extra_hash",
+      "status": -2,
+      "error_line": 1,
+      "passed": true
+    },
+    {
+      "case": "double_hash",
+      "status": -2,
+      "error_line": 1,
+      "passed": true
+    },
+    {
+      "case": "nan",
+      "status": -2,
+      "error_line": 1,
+      "passed": true
+    },
+    {
+      "case": "inf",
+      "status": -2,
+      "error_line": 1,
+      "passed": true
+    },
+    {
+      "case": "missing_column",
+      "status": -2,
+      "error_line": 1,
+      "passed": true
+    },
+    {
+      "case": "missing_voltage",
+      "status": -2,
+      "error_line": 1,
+      "passed": true
+    },
+    {
+      "case": "missing_current",
+      "status": -2,
+      "error_line": 1,
+      "passed": true
+    },
+    {
+      "case": "missing_separator",
+      "status": -2,
+      "error_line": 1,
+      "passed": true
+    },
+    {
+      "case": "old_space_separator",
+      "status": -2,
+      "error_line": 1,
+      "passed": true
+    },
+    {
+      "case": "old_tab_separator",
+      "status": -2,
+      "error_line": 1,
+      "passed": true
+    },
+    {
+      "case": "embedded_NUL",
+      "status": -2,
+      "error_line": 1,
+      "passed": true
+    },
+    {
+      "case": "long_line",
+      "status": -4,
+      "error_line": 1,
+      "passed": true
+    },
+    {
+      "case": "SD_read_error",
+      "status": -1,
+      "error_line": 1,
+      "passed": true
+    }
+  ],
+  "hardware_test": "Pending UART RX diagnostic board test",
+  "elf_build": "PASS",
+  "elf_sha256": "e2c2d9a5c6d24fb8983ffa1aadca9e09358d0bca961f79b154e0a16486b586e0",
+  "sd_ps_config": {
+    "PCW_SD0_PERIPHERAL_ENABLE": {
+      "current": "1",
+      "reference": "1"
+    },
+    "PCW_SD0_SD0_IO": {
+      "current": "MIO 40 .. 45",
+      "reference": "MIO 40 .. 45"
+    },
+    "PCW_SD0_GRP_CD_ENABLE": {
+      "current": "1",
+      "reference": "1"
+    },
+    "PCW_SD0_GRP_CD_IO": {
+      "current": "MIO 10",
+      "reference": "MIO 10"
+    },
+    "PCW_SD0_GRP_WP_ENABLE": {
+      "current": "0",
+      "reference": "0"
+    },
+    "PCW_SD0_GRP_POW_ENABLE": {
+      "current": "0",
+      "reference": "0"
+    }
+  },
+  "request": "FE 21 lo hi FD records 4000 points; FE 22 lo hi FD selects SD TXT for inference",
+  "file_format": "4000 nonblank rows, voltage_V#current_A; optional spaces around #; values parsed to float32",
+  "response": "TJC x1.val=round(SOH_percent*100), x2.val=round(capacity_Ah*1000); FF FF FF terminators",
+  "bit_generated": false,
+  "xsa_generated": false,
+  "application": "vitis/app_component",
+  "separator": "#",
+  "arm_strict_syntax_check": "PASS: -Wall -Wextra -Werror",
+  "txt_zip_sha256": "c32e869097955b0a0fa63756dbe8606288dc29260d4d249f15d1b0fdfb5b8011",
+  "updated_at": "2026-10-24T21:56:57.3536294+08:00",
+  "integration_verification": "outputs/integration_verification.json"
+}

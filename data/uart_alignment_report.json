@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-26",
+  "symptom": "RX remains zero; same board and wiring work with i2c project",
+  "compared": [
+    "UART driver/init source",
+    "BSP UART base address and interrupt configuration",
+    "BD UART0 EMIO configuration",
+    "XDC and placed IO report",
+    "launch PS initialization mode and script",
+    "loaded bitstream against implemented bitstream"
+  ],
+  "matches": {
+    "uart_base": "0xe0000000",
+    "uart_interrupt": "0x401b",
+    "interrupt_parent": "0xf8f01000",
+    "uart_route": "EMIO UART0",
+    "RX_pin": "Y6",
+    "TX_pin": "T5",
+    "baud": 115200,
+    "bitstream_matches_implemented_result": true
+  },
+  "fixed": [
+    {
+      "file": "vitis/app_component/_ide/launch.json",
+      "change": "Use PS7 Tcl initialization, like working i2c; replace incorrect lstm_axis.tcl driver script path with current platform ps7_init.tcl"
+    },
+    {
+      "file": "vitis/app_component/src/usart.c",
+      "change": "Keep CfgInitialize default 8N1 and one SetBaudRate call, like working i2c; remove duplicate FIFO-resetting SetDataFormat call"
+    }
+  ],
+  "ps_init_script_matches_current_platform": true,
+  "validation": {
+    "arm_syntax": "PASS: -Wall -Wextra -Werror, -fsyntax-only",
+    "host_integration": "PASS: actual production sources with simulated hardware",
+    "launch_json_and_ps7_entry_points": "PASS"
+  },
+  "arm_elf_rebuilt": false,
+  "existing_elf_sha256": "e2c2d9a5c6d24fb8983ffa1aadca9e09358d0bca961f79b154e0a16486b586e0",
+  "existing_elf_unchanged": true,
+  "source_change_in_existing_elf": false,
+  "next_board_test": "Restart using corrected Vitis launch configuration; existing ELF can exercise launch change. UART source alignment takes effect only after a later user build.",
+  "root_cause": "Not confirmed on board. Incorrect inactive PS-init path and differing active FSBL initialization were found and corrected.",
+  "bit_generated": false,
+  "xsa_generated": false,
+  "reference_project_modified": false
+}

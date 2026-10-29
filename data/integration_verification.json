@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-25",
+  "elf": "outputs/lstm_sd_app.elf",
+  "elf_build": "PASS",
+  "elf_sha256": "e2c2d9a5c6d24fb8983ffa1aadca9e09358d0bca961f79b154e0a16486b586e0",
+  "arm_strict_syntax_check": "PASS: -Wall -Wextra -Werror",
+  "host_integration_tests": "PASS: actual application, UART/ring, FatFs recorder/parser, preprocessing, optimized HLS C; hardware interfaces simulated",
+  "opcode_id_combinations_checked": 131072,
+  "checks": [
+    "fragmented/noisy/concatenated frames",
+    "FE/FD inside numeric payload",
+    "ring overflow discard and resynchronization",
+    "4000-point acquisition and failed-sample exclusion",
+    "V#I signed units",
+    "FE21/FE22 ignored while recording",
+    "existing-file protection",
+    "recorded-file inference",
+    "missing/malformed/1000-row files rejected",
+    "mount/read/close/short-write/write/sync errors",
+    "exact TJC commands and FF FF FF terminators",
+    "result scaling, negative values and overflow guard",
+    "DMA submit failure and timeout guard",
+    "hardware FIFO reception without IRQ",
+    "IRQ then polling does not duplicate bytes",
+    "RX count and last-five-byte diagnostics",
+    "recording-busy status response"
+  ],
+  "record_frame": "FE 21 lo hi FD",
+  "infer_frame": "FE 22 lo hi FD",
+  "number_encoding": "unsigned 16-bit little endian",
+  "record_points": 4000,
+  "sample_interval_ms": 100,
+  "text_format": "voltage_V#current_A",
+  "display": {
+    "x1": "round(SOH_percent * 100)",
+    "x2": "round(capacity_Ah * 1000)",
+    "nominal_capacity_Ah": 2
+  },
+  "fixtures": [
+    {
+      "file": "1.txt",
+      "Q12": 3835,
+      "x1": 9363,
+      "x2": 1873
+    },
+    {
+      "file": "167.txt",
+      "Q12": 3858,
+      "x1": 9419,
+      "x2": 1884
+    }
+  ],
+  "hardware_config_check": "Current BD/BSP enable I2C0 EMIO, UART0 EMIO and SD0; current XDC uses I2C Y7/U5 and UART Y6/T5",
+  "hardware_test": "PENDING: user reports live display works but FE21/FE22 not reacting; root cause not yet confirmed",
+  "bit_generated": false,
+  "xsa_generated": false,
+  "boot_bin_generated": false,
+  "reference_project_modified": false,
+  "source_sha256": {
+    "vitis/app_component/src/i2c.c": "d719d875f58033d263a692c79609caa0906a72ab10f870ae773d0ae86dee65a5",
+    "vitis/app_component/src/i2c.h": "22d060f6d0ec3de40ade510c261923ed266921b0d4b7c1a88bf2ba6fd7ca9981",
+    "vitis/app_component/src/lstm_preprocess.h": "a4b23f5593a2622049b1b9850f385db539b8eac6ababd4e59b6bd6ecd713959e",
+    "vitis/app_component/src/lstm_protocol.c": "f383d802fc8dabe680c98392d9c26e86ea2ac90cdfc5fa6024427b0009cd16f7",
+    "vitis/app_component/src/lstm_protocol.h": "14439a9ea7498540f62fc27d57a8b9c5a750c3ad5a040025a7fae69b07b793b6",
+    "vitis/app_component/src/lstm_selftest.h": "f74222e020f7c6ed3757173ae52f1fe756ddcafba80296d75cd64957c0d3c902",
+    "vitis/app_component/src/lstm_txt.c": "3e2821692f3d1846c65627dc1b7c14753538c5de6e48d9bf005496c6b124ff63",
+    "vitis/app_component/src/lstm_txt.h": "f4c998f931100de70cdd5f683c8272a2afb16cc0f024dd1ea9e668ca67c2e85b",
+    "vitis/app_component/src/main.c": "1286bc67e40c892d1d878b31548a7d6ccc693da499b627ebd950180ef5721cc0",
+    "vitis/app_component/src/sd_logger.c": "bec2399ee5f5bf37dae06dde0045a47b947337cd51da98bf80c67fb4f2cb5a21",
+    "vitis/app_component/src/sd_logger.h": "0f29ce731825e904f280b5c42021f4253876e6ded0aa543e02b4688f7e973e35",
+    "vitis/app_component/src/usart.c": "9dbd92f7d7813814040d1f3d9ebd21fb7d8a8b04cc5839bf5630b9b8419cdc8f",
+    "vitis/app_component/src/usart.h": "405e00c75a033c4a019cce9c5c80524606083acdff8e9d3faf2870ea331ff4f4"
+  },
+  "revision": "UART FIFO polling fallback and RX diagnostics"
+}
