@@ -53,7 +53,7 @@ the_ROM_image:
 bootgen -arch zynq -image boot.bif -o boot.bin -w on
 ```
 
-该命令会覆盖当前目录的 `boot.bin`；如需保留已有镜像，先备份。使用同一最终硬件平台生成的 FSBL、bitstream 和应用 ELF，打包后仍需板上验证。仓库 `build/build.ps1` 当前只执行 HLS、综合和布局布线，不自动生成上述完整启动包。
+该命令会覆盖当前目录的 `boot.bin`；如需保留已有镜像，先备份。使用同一最终硬件平台生成的 FSBL、bitstream 和应用 ELF，打包后仍需板上验证。仓库 `build/build.ps1` 已补充完整启动包构建流程，使用方法与验证限制见 `build/README.md`；输出保存在独立的 `work/build_<id>/`，不会自动覆盖本目录。
 
 ## 串口命令
 
@@ -166,4 +166,4 @@ val 参数是整数，不加字符串引号。每条命令以 FF FF FF 结束。
 
 仓库整理时已通过主机 I2C 测试和集成测试，覆盖串口帧解析、SD 异常处理、采集重采样以及 NASA 样本 1、167 的 HLS C 模型输出。测试使用模拟硬件接口，不能替代板上 I2C、UART、SD 和 PL 验证。
 
-测试位于 `sim/i2c/` 和 `sim/integration/`。数据目录已从原 `data/sd_card/` 调整为 `data/NASA_SD/`，重新运行集成测试前需确认测试夹具路径与当前目录一致；历史测试通过记录不代表调整后的全部文件已经再次验证。
+测试位于 `sim/i2c/` 和 `sim/integration/`。测试夹具路径已更新为 `data/NASA_SD/`，此次脚本完善时已重新运行集成测试并全部通过。

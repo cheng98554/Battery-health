@@ -25,11 +25,11 @@
 ./build/build.ps1 -Tools C:/AMDDesignTools/2026.1
 ```
 
-前两项使用该安装目录附带的 GCC。构建脚本先生成优化 HLS IP，再从 system.bd 创建 Vivado 工程并运行综合、布局布线；输出工程位于 work/vivado。需要安装对应器件支持。
+前两项使用该安装目录附带的 GCC。构建脚本包含 HLS、Vivado bit/XSA、Vitis FSBL/应用和 Bootgen 启动包流程；输出位于独立的 work/build_<id>。完整说明与验证限制见 build/README.md。需要安装对应器件支持。
 
-上板：在 Vivado 中生成 bitstream 并导出包含 bitstream 的 XSA；使用 Vitis 创建 standalone Cortex-A9 平台，启用 xilffs，建立应用并导入 src/ps 的源文件，生成 FSBL 和应用，然后打包启动镜像。SD 文件见 data/sd_card，协议及接线说明见 board/sd_usage.md。
+上板：在 Vivado 中生成 bitstream 并导出包含 bitstream 的 XSA；使用 Vitis 创建 standalone Cortex-A9 平台，启用 xilffs，建立应用并导入 src/ps 的源文件，生成 FSBL 和应用，然后打包启动镜像。SD 文件见 data/NASA_SD，协议及接线说明见 board/sd_usage.md。
 
-board 中 ELF 和 build/reports、data 中验证结果来自原工程，不能视为此次重新构建或上板验证的结果。此次整理未执行完整 HLS/Vivado 构建或硬件验证。历史记录中的桌面绝对路径和旧目录仅供追溯，以本 README 的目录为准。
+board 中 ELF 和 build/reports、data 中验证结果来自原工程，不能视为此次重新构建或上板验证的结果。2026-10-29 已验证 HLS、Vivado bit/XSA、Vitis FSBL/应用和 Bootgen 各阶段；软件阶段修复路径长度问题后单独重试成功。新产物保存在 work，未覆盖 board，也未进行实体板卡验证。历史记录中的桌面绝对路径和旧目录仅供追溯，以本 README 的目录为准。
 
 源工程的 IDE 缓存、临时 Python 依赖、历史备份和生成的中间文件未纳入仓库。保留源工程不变。
 

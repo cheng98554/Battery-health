@@ -36,7 +36,7 @@ static void feed(uint8_t command, uint16_t number) {
 static void advance_sample(void) { clock_now += (XTime)COUNTS_PER_SECOND * 11U / 10U; app_poll(); }
 static void load_fixture(unsigned number) {
     char path[80];
-    snprintf(path, sizeof path, "data/sd_card/%u.txt", number);
+    snprintf(path, sizeof path, "data/NASA_SD/%u.txt", number);
     FILE *f = fopen(path, "rb"); assert(f);
     disk_used = fread(disk, 1, sizeof disk - 1, f); assert(feof(f)); fclose(f);
     disk[disk_used] = 0; disk_exists = 1;
