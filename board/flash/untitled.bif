@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]C:\Users\33827\Desktop\nasa\vitis\platform\export\platform\sw\boot\fsbl.elf
+	C:\Users\33827\Desktop\nasa\vitis\app_component\_ide\bitstream\system_wrapper.bit
+	C:\Users\33827\Desktop\nasa\vitis\app_component\build\app_component.elf
+}
