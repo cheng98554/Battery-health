@@ -4,3 +4,6 @@ work/
 *.log
 src/hls/lstm_fast_hls/
 src/*.zip
+
+__pycache__/
+*.pyc

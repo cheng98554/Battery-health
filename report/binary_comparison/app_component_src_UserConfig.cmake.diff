@@ -1,0 +1,21 @@
+--- original/UserConfig.cmake
++++ rebuilt/UserConfig.cmake
+@@ -34,9 +34,6 @@
+ #Example 2: Adding ../../common/helloworld.c will consider the path as relative to this component directory
+ #Example 3: Adding ${MY_ENV}/data/helloworld.c are expanded using project-specific environment settings.
+ set(USER_COMPILE_SOURCES
+-"i2c.c"
+-"lstm_protocol.c"
+-"usart.c"
+ )
+ 
+ # -----------------------------------------
+@@ -118,6 +115,8 @@
+ # Add any libraries to be linked below, they will be added as extra libraries.
+ # User needs to update USER_LINK_DIRECTORIES below with these library search paths.
+ set(USER_LINK_LIBRARIES
++"xilffs"
++"xiltimer"
+ "m"
+ )
+ 

@@ -1,0 +1,23 @@
+app_component normalized compile commands equal: True; sources 6/6
+platform/zynq_fsbl normalized compile commands equal: True; sources 12/12
+platform/zynq_fsbl/ps7_init.c: byte identical=True
+platform/zynq_fsbl/ps7_init.h: byte identical=True
+platform/export/platform/sw/standalone_ps7_cortexa9_0/lib/libxil.a: byte identical=False
+platform/export/platform/sw/standalone_ps7_cortexa9_0/lib/libxilffs.a: byte identical=False
+platform/export/platform/sw/standalone_ps7_cortexa9_0/lib/libxiltimer.a: byte identical=False
+bitstream identical: False
+XSA drivers/lstm_axis_v1_0/data/lstm_axis.tcl equal: True
+XSA drivers/lstm_axis_v1_0/src/xlstm_axis.c equal: True
+XSA drivers/lstm_axis_v1_0/src/xlstm_axis.h equal: True
+XSA drivers/lstm_axis_v1_0/src/xlstm_axis_hw.h equal: True
+XSA drivers/lstm_axis_v1_0/src/xlstm_axis_linux.c equal: True
+XSA drivers/lstm_axis_v1_0/src/xlstm_axis_sinit.c equal: True
+XSA ps7_init.c equal: True
+XSA ps7_init.h equal: True
+XSA ps7_init.tcl equal: True
+XSA ps7_init_gpl.c equal: True
+XSA ps7_init_gpl.h equal: True
+XSA sysdef.xml equal: False
+XSA system.hwh equal: False
+XSA system_axi_smc_0.hwh equal: False
+XSA xsa.xml equal: False

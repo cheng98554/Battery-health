@@ -1,0 +1,26 @@
+--- 
++++ 
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <Root VersionMajor="1" VersionMinor="15">
+-  <GenAppInfo Name="Vivado" Version="2026.1" CL="6511674" TimeStamp="Wed Oct 28 21:01:35 2026"/>
++  <GenAppInfo Name="Vivado" Version="2026.1" CL="6511674" TimeStamp="Thu Oct 29 20:22:30 2026"/>
+   <DSA Vendor="xilinx" BoardId="" Name="" VersionMajor="0" VersionMinor="0" Description="Vivado generated Hardware Platform" FeatureRomTimestamp="0" DcpLogicFunctionStripped="false" DcpEncrypt="false" Unified="true" Fixed="true" DefaultOutputType="hw_export">
+     <Build UsesPR="false" PlatformState="pre_synth" AcceleratorBinaryContent="bitstream" ValidBinaryContentValues="dcp,bitstream" TopModuleName="system_wrapper"/>
+     <Board Name="" Vendor="" Part="">
+@@ -12,11 +12,14 @@
+     </Board>
+     <Devices>
+       <Device Name="fpga0" Type="8" FpgaDevice="zynq:xc7z020:clg400:-2">
+-        <Core Name="OCL_REGION_0" Type="clc_region" ComputeUnits="60"/>
++        <Core Name="OCL_REGION_0" Type="clc_region" ComputeUnits="60">
++          <AvailableResources LUT="48734" REG="100899" BRAM="132" DSP="164"/>
++        </Core>
+       </Device>
+     </Devices>
+     <Files>
+       <File Type="FULL_BIT" Name="system_wrapper.bit"/>
++      <File Type="NOC_TRAFFIC" Name="system_wrapper.nts"/>
+     </Files>
+   </DSA>
+ </Root>

@@ -1,0 +1,26 @@
+BOARD ONLY
+C:/Users/33827/Desktop/nasa/vitis/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/iicps/src/xiicps.c
+C:/Users/33827/Desktop/nasa/vitis/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/iicps/src/xiicps_hw.c
+C:/Users/33827/Desktop/nasa/vitis/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/iicps/src/xiicps_master.c
+C:/Users/33827/Desktop/nasa/vitis/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/iicps/src/xiicps_options.c
+C:/Users/33827/Desktop/nasa/vitis/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/iicps/src/xiicps_xfer.c
+C:/Users/33827/Desktop/nasa/vitis/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/scugic/src/xscugic.c
+C:/Users/33827/Desktop/nasa/vitis/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/scugic/src/xscugic_intr.c
+C:/Users/33827/Desktop/nasa/vitis/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/sdps/src/xsdps.c
+C:/Users/33827/Desktop/nasa/vitis/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/sdps/src/xsdps_options.c
+C:/Users/33827/Desktop/nasa/vitis/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/uartps/src/xuartps.c
+C:/Users/33827/Desktop/nasa/vitis/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/uartps/src/xuartps_intr.c
+C:/Users/33827/Desktop/nasa/vitis/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/uartps/src/xuartps_options.c
+REBUILT ONLY
+C:/Users/33827/Desktop/Battery-health/work/v9c934f3f/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/iicps/src/xiicps.c
+C:/Users/33827/Desktop/Battery-health/work/v9c934f3f/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/iicps/src/xiicps_hw.c
+C:/Users/33827/Desktop/Battery-health/work/v9c934f3f/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/iicps/src/xiicps_master.c
+C:/Users/33827/Desktop/Battery-health/work/v9c934f3f/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/iicps/src/xiicps_options.c
+C:/Users/33827/Desktop/Battery-health/work/v9c934f3f/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/iicps/src/xiicps_xfer.c
+C:/Users/33827/Desktop/Battery-health/work/v9c934f3f/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/scugic/src/xscugic.c
+C:/Users/33827/Desktop/Battery-health/work/v9c934f3f/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/scugic/src/xscugic_intr.c
+C:/Users/33827/Desktop/Battery-health/work/v9c934f3f/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/sdps/src/xsdps.c
+C:/Users/33827/Desktop/Battery-health/work/v9c934f3f/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/sdps/src/xsdps_options.c
+C:/Users/33827/Desktop/Battery-health/work/v9c934f3f/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/uartps/src/xuartps.c
+C:/Users/33827/Desktop/Battery-health/work/v9c934f3f/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/uartps/src/xuartps_intr.c
+C:/Users/33827/Desktop/Battery-health/work/v9c934f3f/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/uartps/src/xuartps_options.c

@@ -1,0 +1,29 @@
+--- 
++++ 
+@@ -9,7 +9,7 @@
+     4fa4:	e51b3008 	ldr	r3, [fp, #-8]
+     4fa8:	e3530000 	cmp	r3, #0
+     4fac:	1a000008 	bne	4fd4 <ps7_post_config+0x4c>
+-    4fb0:	e30401cc 	movw	r0, #16844	; 0x41cc
++    4fb0:	e3040244 	movw	r0, #16964	; 0x4244
+     4fb4:	e3400001 	movt	r0, #1
+     4fb8:	ebffff64 	bl	4d50 <ps7_config>
+     4fbc:	e50b000c 	str	r0, [fp, #-12]
+@@ -21,7 +21,7 @@
+     4fd4:	e51b3008 	ldr	r3, [fp, #-8]
+     4fd8:	e3530001 	cmp	r3, #1
+     4fdc:	1a000008 	bne	5004 <ps7_post_config+0x7c>
+-    4fe0:	e3030798 	movw	r0, #14232	; 0x3798
++    4fe0:	e3030810 	movw	r0, #14352	; 0x3810
+     4fe4:	e3400001 	movt	r0, #1
+     4fe8:	ebffff58 	bl	4d50 <ps7_config>
+     4fec:	e50b000c 	str	r0, [fp, #-12]
+@@ -30,7 +30,7 @@
+     4ff8:	0a00000a 	beq	5028 <ps7_post_config+0xa0>
+     4ffc:	e51b300c 	ldr	r3, [fp, #-12]
+     5000:	ea000009 	b	502c <ps7_post_config+0xa4>
+-    5004:	e3020d44 	movw	r0, #11588	; 0x2d44
++    5004:	e3020dbc 	movw	r0, #11708	; 0x2dbc
+     5008:	e3400001 	movt	r0, #1
+     500c:	ebffff4f 	bl	4d50 <ps7_config>
+     5010:	e50b000c 	str	r0, [fp, #-12]

@@ -1,0 +1,14 @@
+BOARD ONLY
+C:/Users/33827/Desktop/nasa/vitis/platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/devcfg/src/xdevcfg.c
+C:/Users/33827/Desktop/nasa/vitis/platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/devcfg/src/xdevcfg_intr.c
+C:/Users/33827/Desktop/nasa/vitis/platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/qspips/src/xqspips.c
+C:/Users/33827/Desktop/nasa/vitis/platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/qspips/src/xqspips_options.c
+C:/Users/33827/Desktop/nasa/vitis/platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/sdps/src/xsdps.c
+C:/Users/33827/Desktop/nasa/vitis/platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/sdps/src/xsdps_options.c
+REBUILT ONLY
+C:/Users/33827/Desktop/Battery-health/work/v9c934f3f/platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/devcfg/src/xdevcfg.c
+C:/Users/33827/Desktop/Battery-health/work/v9c934f3f/platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/devcfg/src/xdevcfg_intr.c
+C:/Users/33827/Desktop/Battery-health/work/v9c934f3f/platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/qspips/src/xqspips.c
+C:/Users/33827/Desktop/Battery-health/work/v9c934f3f/platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/qspips/src/xqspips_options.c
+C:/Users/33827/Desktop/Battery-health/work/v9c934f3f/platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/sdps/src/xsdps.c
+C:/Users/33827/Desktop/Battery-health/work/v9c934f3f/platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/sdps/src/xsdps_options.c

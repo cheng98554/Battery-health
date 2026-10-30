@@ -2,13 +2,27 @@
 
 本目录提供从 HLS、硬件设计和 PS 源码生成 Zynq SD 启动镜像的自动构建流程。统一入口为 `build.ps1`。
 
+
+```text
+build/
+├── README.md             使用说明
+├── build.ps1             唯一构建入口
+├── scripts/              内部辅助脚本
+│   ├── rebuild.tcl       Vivado 硬件构建
+│   ├── software.py       Vitis 软件构建
+│   └── check_hardware.py 硬件基准检查
+└── reports/              综合与实现报告
+    ├── README.md         资源、频率及性能摘要
+    ├── synthesis/        HLS 与各 IP 综合报告
+    └── implementation/   资源、时序与 DRC 报告
+```
 ## 文件说明
 
 | 文件 | 用途 |
 | --- | --- |
 | `build.ps1` | 检查工具路径、创建输出目录、依次运行构建阶段并生成 SHA256 清单 |
-| `rebuild.tcl` | 创建 Vivado 工程，执行综合、布局布线、bitstream 生成、时序检查和 XSA 导出 |
-| `software.py` | 根据新 XSA 创建 Vitis 平台，启用 xilffs，生成 FSBL 并编译 PS 应用 |
+| `scripts/rebuild.tcl` | 创建 Vivado 工程，执行综合、布局布线、bitstream 生成、时序检查和 XSA 导出 |
+| `scripts/software.py` | 根据新 XSA 创建 Vitis 平台，启用 xilffs，生成 FSBL 并编译 PS 应用 |
 | `reports/` | 仓库已有报告；自动构建的新报告写入本次输出目录 |
 
 HLS 构建脚本位于 [`../src/hls/build.tcl`](../src/hls/build.tcl)，由总入口调用。
@@ -28,7 +42,7 @@ HLS 构建脚本位于 [`../src/hls/build.tcl`](../src/hls/build.tcl)，由总�
 
 默认工具根目录为 `C:/AMDDesignTools/2026.1`。使用其他安装位置时通过 `-Tools` 指定。
 
-`software.py` 使用 Vitis 自带 Python 环境和 API，不使用系统 Python。软件平台为 `ps7_cortexa9_0` 上的 standalone，脚本自动启用 `xilffs` 并配置长文件名支持。
+`scripts/software.py` 使用 Vitis 自带 Python 环境和 API，不使用系统 Python。软件平台为 `ps7_cortexa9_0` 上的 standalone，脚本自动启用 `xilffs` 并配置长文件名支持。
 
 将仓库放在较短的英文路径下，例如 `C:/projects/battery-health`，减少 Windows 工具的路径长度问题；为生成的 HLS、Vivado 和 Vitis 工程预留磁盘空间。构建过程不需要连接开发板。
 
@@ -136,3 +150,11 @@ Vitis 工作区单独生成于 `work/v<id>/`，用于缩短路径；其中保留
 ## 综合与实现报告
 
 资源占用、时钟频率与关键性能指标见 [reports/README.md](reports/README.md)。其中包含各 IP 综合报告、整工程布线后资源和时序报告，以及 HLS 加速器延迟、调用间隔与资源估算；各类统计的范围在摘要中分别注明。
+
+## 与 board 基准保持一致
+
+硬件基准为 `board/system_wrapper.xsa`，来自指定的原 NASA 工程 XSA。脚本仍从 HLS、BD 和 PS 源码构建，不复制 board 的 ELF 作为构建输出。
+
+在软件构建前，`scripts/check_hardware.py` 检查：基准 XSA 内 bitstream 与 board/system_wrapper.bit 字节一致；重建 XSA 的 ps7_init.c/h/tcl 与基准一致；硬件交接文件中的参数及连接一致。仅忽略时间戳、IP 修订号、自动生成组件名，以及未使用 MIO14/15 的方向、电平、上拉、转换速率描述。其余差异会停止软件构建。比较摘要写入本次 reports/hardware_comparison.json。
+
+应用继续使用原工程的 -O0/-g3 默认配置，显式链接库与原工程对齐为 m；xilffs 和 xiltimer 由生成的平台 CMake 引入。配置比对不等同于 PL 逻辑形式等价证明或实体板卡测试；生成文件可以因路径、时间戳及布局布线变化而与 board 的 SHA256 不同。
