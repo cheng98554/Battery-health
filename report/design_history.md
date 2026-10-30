@@ -46,6 +46,6 @@ IP仓库：deployment/hls/lstm_fast_hls/solution1/impl/ip。
 ## 报告
 
 outputs/lstm_speed_comparison.json：原版和优化版周期、资源、验证及当前部署状态。
-deployment/reports/fast_timing.rpt：布线后时序。
-deployment/reports/fast_utilization_placed.rpt：整工程布局资源。
+当前布线后时序报告：build/reports/implementation/timing.rpt。
+当前整工程布线后资源报告：build/reports/implementation/utilization.rpt。
 deployment/hls/lstm_fast_hls/solution1/sim/report/lstm_axis_cosim.rpt：RTL仿真结果。
