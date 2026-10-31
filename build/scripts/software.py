@@ -1,6 +1,7 @@
 import os
 import uuid
 import json
+import hashlib
 import sys
 from pathlib import Path
 import shutil
@@ -12,6 +13,13 @@ out = Path(os.environ['NASA_BUILD_DIR']).resolve()
 workspace = root / 'work' / ('v' + uuid.uuid4().hex[:8])
 comparison = check(root / 'board/system_wrapper.xsa', out / 'system_wrapper.xsa', root / 'board/system_wrapper.bit')
 (out / 'reports/hardware_comparison.json').write_text(json.dumps(comparison, indent=2), encoding='utf-8')
+# Record the exact source inputs; screen files are separate deployment inputs.
+inputs = {}
+for folder in ('src/ps', 'src/hls', 'src/hardware', 'src/uart_screen'):
+    for source in sorted((root / folder).rglob('*')):
+        if source.is_file() and '__pycache__' not in source.parts:
+            inputs[source.relative_to(root).as_posix()] = hashlib.sha256(source.read_bytes()).hexdigest()
+(out / 'reports/source_manifest.json').write_text(json.dumps(inputs, indent=2), encoding='utf-8')
 client = vitis.create_client()
 try:
     client.set_workspace(path=str(workspace))

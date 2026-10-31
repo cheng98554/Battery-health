@@ -101,7 +101,8 @@ static int ReceiveCommand(uint8_t *command, uint16_t *number) {
     UART_Poll();
     if (UART_TakeOverflow()) { set_status("UART full"); return 0; }
     while (usize >= LENGTH) {
-        if (u(0) == 0xFE && (u(1) == 0x21 || u(1) == 0x22) && u(4) == 0xFD) {
+        if (u(0) == 0xFE && (u(1) == 0x21 || u(1) == 0x22 ||
+            (u(1) == 0x23 && u(2) == 0 && u(3) == 0)) && u(4) == 0xFD) {
             *command = u(1);
             *number = (uint16_t)u(2) | ((uint16_t)u(3) << 8);
             udelete(LENGTH);
@@ -151,6 +152,24 @@ static int send_result(void) {
     return XST_SUCCESS;
 }
 
+/* SOH percent * 5 - 300, rounded and saturated to the waveform range. */
+static void send_batch_value(void) {
+    int64_t value = (int64_t)(int32_t)rx[0] * 500 - (int64_t)300 * 4096;
+    value = (value + (value < 0 ? -2048 : 2048)) / 4096;
+    if (value < 0) value = 0;
+    if (value > 255) value = 255;
+    tjc_send_wave("add s0.id,0,", (int)value);
+    tjc_send_wave("add s0.id,0,", (int)value);
+}
+
+static void run_batch(void) {
+    for (uint16_t number = 100; number <= 265; ++number) {
+        if (load_sd_file(number) != XST_SUCCESS) return;
+        if (lstm_predict() != XST_SUCCESS) { model_ready = 0; return; }
+        send_batch_value();
+    }
+}
+
 static void handle_command(uint8_t command, uint16_t number) {
     /* Never remount the card or read a partially recorded file. */
     if (SD_IsRecording()) {
@@ -170,6 +189,7 @@ static void handle_command(uint8_t command, uint16_t number) {
         return;
     }
     if (!model_ready) { set_status("Model err"); return; }
+    if (command == 0x23) { run_batch(); return; }
     set_status("pred %u", (unsigned)number);
     if (load_sd_file(number) != XST_SUCCESS) return;
     if (lstm_predict() != XST_SUCCESS) { model_ready = 0; return; }

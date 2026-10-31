@@ -1,4 +1,4 @@
-param([string]$Tools='C:/AMDDesignTools/2026.1',[ValidateRange(1,64)][int]$Jobs=4,[switch]$CheckOnly)
+param([string]$Tools='C:/AMDDesignTools/2026.1',[ValidateRange(1,64)][int]$Jobs=4,[switch]$CheckOnly,[switch]$SoftwareOnly)
 $ErrorActionPreference='Stop'
 $root=Split-Path $PSScriptRoot -Parent
 foreach($tool in @('Vitis/bin/vitis-run.bat','Vivado/bin/vivado.bat','Vitis/bin/vitis.bat','Vitis/bin/bootgen.bat')){if(!(Test-Path "$Tools/$tool")){throw "Missing $tool"}}
@@ -10,21 +10,40 @@ function Run-Stage($name,$exe,$arguments){
  # Windows PowerShell 5.1 wraps native stderr in ErrorRecord objects.
  # Keep draining stderr so a traceback is recorded in full before failing.
  $savedPreference=$ErrorActionPreference
+ $savedEncoding=[Console]::OutputEncoding
+ $savedPythonEncoding=$env:PYTHONIOENCODING
+ $savedPythonUtf8=$env:PYTHONUTF8
  try {
   $ErrorActionPreference='Continue'
+  # Vitis decodes its Windows server output as UTF-8, including cmd messages.
+  if($name -eq 'software'){
+   [Console]::OutputEncoding=New-Object System.Text.UTF8Encoding($false)
+   $env:PYTHONIOENCODING='utf-8'
+   $env:PYTHONUTF8='1'
+  }
   & $exe @arguments 2>&1 | ForEach-Object { $_.ToString() } | Tee-Object "$out/reports/$name.log"
   $code=$LASTEXITCODE
- } finally { $ErrorActionPreference=$savedPreference }
+ } finally {
+  [Console]::OutputEncoding=$savedEncoding
+  $env:PYTHONIOENCODING=$savedPythonEncoding
+  $env:PYTHONUTF8=$savedPythonUtf8
+  $ErrorActionPreference=$savedPreference
+ }
  if($code -ne 0){throw "$name failed (exit $code); see $out/reports/$name.log"}
 }
 $previous=$env:NASA_BUILD_DIR
 $env:NASA_BUILD_DIR=$out
 Push-Location $out
 try {
+ if($SoftwareOnly){
+  Copy-Item -LiteralPath (Join-Path $root 'board/system_wrapper.xsa') -Destination (Join-Path $out 'system_wrapper.xsa')
+  Copy-Item -LiteralPath (Join-Path $root 'board/system_wrapper.bit') -Destination (Join-Path $out 'system_wrapper.bit')
+ } else {
  Run-Stage hls "$Tools/Vitis/bin/vitis-run.bat" @('--mode','hls','--tcl',"$root/src/hls/build.tcl")
  if(!(Test-Path "$out/hls/solution1/impl/ip/component.xml")){throw "HLS IP export missing"}
  Run-Stage vivado "$Tools/Vivado/bin/vivado.bat" @('-mode','batch','-source',"$root/build/scripts/rebuild.tcl",'-tclargs',$root,$out,"$Jobs")
  if(!(Test-Path "$out/system_wrapper.xsa")){throw "Vivado XSA export missing"}
+ }
  Run-Stage software "$Tools/Vitis/bin/vitis.bat" @('-s',"$root/build/scripts/software.py")
  "the_ROM_image:`n{`n [bootloader] fsbl.elf`n system_wrapper.bit`n app_component.elf`n}" | Set-Content "$out/boot.bif" -Encoding ascii
  foreach($required in @('fsbl.elf','app_component.elf','system_wrapper.bit')){if(!(Test-Path $required)){throw "Missing artifact before packaging: $required"}}
