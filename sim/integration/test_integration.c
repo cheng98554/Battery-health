@@ -20,6 +20,8 @@ static char backup_disk[200000], backup_name[32];
 static size_t backup_used;
 static int rename_error;
 static int disk_exists, mount_error, read_error, write_error, short_write, close_error, sync_error;
+static int batch_mock;
+static unsigned batch_next;
 static int mounts, read_opens, sample_fail, samples, dma_runs, dma_fail, dma_timeout;
 static XTime clock_now;
 static s16 sample_current = -123;
@@ -51,6 +53,11 @@ FRESULT f_mount(FATFS *fs_arg, const char *path, int immediate) {
 FRESULT f_open(FIL *f, const char *path, int flags) {
     f->position = 0; f->mode = flags;
     if (flags == FA_READ) {
+        if (batch_mock) {
+            char expected[32]; snprintf(expected, sizeof expected, "0:/%u.txt", batch_next++);
+            assert(strcmp(path, expected) == 0);
+            load_fixture(1); strcpy(disk_name, expected);
+        }
         ++read_opens;
         return disk_exists && strcmp(path, disk_name) == 0 ? FR_OK : FR_NO_FILE;
     }
@@ -177,7 +184,7 @@ int main(void) {
             assert(ReceiveCommand(&command, &number) && command == code && number == n && usize == 0);
         }
     }
-    const uint8_t fragment[] = {0, 0xFE, 0x23, 1, 0, 0xFD, 0xFE, 0x22, 0x34};
+    const uint8_t fragment[] = {0, 0xFE, 0x24, 1, 0, 0xFD, 0xFE, 0x22, 0x34};
     for (unsigned j = 0; j < sizeof fragment; ++j) write1ByteToRingBuffer(fragment[j]);
     assert(!ReceiveCommand(&command, &number));
     write1ByteToRingBuffer(0x12); write1ByteToRingBuffer(0xFD);
@@ -207,6 +214,22 @@ int main(void) {
     rx[0] = INT32_MAX; clear_screen(); assert(send_result() != 0 && !strstr(screen, "x1.val="));
     puts("PASS: real TXT -> production preprocessing -> HLS C model -> exact TJC output for 1 and 167");
 
+    feed(0x23, 0); assert(ReceiveCommand(&command, &number) && command == 0x23 && number == 0);
+    feed(0x23, 1); assert(!ReceiveCommand(&command, &number));
+    rx[0] = 3686; clear_screen(); send_batch_value();
+    assert(strcmp(screen, "add s0.id,0,150\xff\xff\xff" "add s0.id,0,150\xff\xff\xff") == 0);
+    rx[0] = 0; clear_screen(); send_batch_value();
+    assert(strcmp(screen, "add s0.id,0,0\xff\xff\xff" "add s0.id,0,0\xff\xff\xff") == 0);
+    rx[0] = 8192; clear_screen(); send_batch_value();
+    assert(strcmp(screen, "add s0.id,0,255\xff\xff\xff" "add s0.id,0,255\xff\xff\xff") == 0);
+    batch_mock = 1; batch_next = 100; clear_screen();
+    handle_command(0x23, 0);
+    const char wave[] = "add s0.id,0,168\xff\xff\xff";
+    assert(batch_next == 266 && screen_used == 332 * (sizeof wave - 1));
+    for (unsigned j = 0; j < 332; ++j)
+        assert(memcmp(screen + j * (sizeof wave - 1), wave, sizeof wave - 1) == 0);
+    batch_mock = 0; load_fixture(167);
+    puts("PASS: FE23 parsing, waveform command mapping/clamping, sequential 100..265 batch with 166 results / 332 commands");
     int prior_runs = dma_runs;
     clear_screen(); feed(0x22, 65535); app_poll(); assert(dma_runs == prior_runs && !strstr(screen, "x1.val="));
     mount_error = 1; feed(0x22, 167); app_poll(); mount_error = 0; assert(dma_runs == prior_runs);

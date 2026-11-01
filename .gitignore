@@ -2,7 +2,6 @@ work/
 .Xil/
 *.jou
 *.log
-src/hls/lstm_fast_hls/
 src/*.zip
 
 __pycache__/
